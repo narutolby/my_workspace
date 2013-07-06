@@ -1,0 +1,582 @@
+2013-03-04 09:36:01,354 INFO [org.hibernate.annotations.common.Version] - <Hibernate Commons Annotations 3.2.0.Final>
+2013-03-04 09:36:01,365 INFO [org.hibernate.cfg.Environment] - <Hibernate 3.6.9.Final>
+2013-03-04 09:36:01,367 INFO [org.hibernate.cfg.Environment] - <hibernate.properties not found>
+2013-03-04 09:36:01,374 INFO [org.hibernate.cfg.Environment] - <Bytecode provider name : javassist>
+2013-03-04 09:36:01,405 INFO [org.hibernate.cfg.Environment] - <using JDK 1.4 java.sql.Timestamp handling>
+2013-03-04 09:36:01,765 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Topic>
+2013-03-04 09:36:01,839 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Topic on table TOPIC>
+2013-03-04 09:36:02,013 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Academy>
+2013-03-04 09:36:02,014 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Academy on table ACADEMY>
+2013-03-04 09:36:02,020 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Group>
+2013-03-04 09:36:02,021 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Group on table GROUP>
+2013-03-04 09:36:02,038 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Resource>
+2013-03-04 09:36:02,039 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Resource on table RESOURCE>
+2013-03-04 09:36:02,056 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Course>
+2013-03-04 09:36:02,057 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Course on table COURSE>
+2013-03-04 09:36:02,065 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.User>
+2013-03-04 09:36:02,066 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.User on table USER>
+2013-03-04 09:36:02,118 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.SubTopic>
+2013-03-04 09:36:02,119 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.SubTopic on table SUB_TOPIC>
+2013-03-04 09:36:02,131 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Directory>
+2013-03-04 09:36:02,132 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Directory on table DIRECTORY>
+2013-03-04 09:36:02,136 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Major>
+2013-03-04 09:36:02,137 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Major on table MAJOR>
+2013-03-04 09:36:02,146 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Bulletin>
+2013-03-04 09:36:02,147 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Bulletin on table BULLETIN>
+2013-03-04 09:36:02,151 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Tag>
+2013-03-04 09:36:02,152 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Tag on table TAG>
+2013-03-04 09:36:02,157 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Community>
+2013-03-04 09:36:02,157 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Community on table COMMUNITY>
+2013-03-04 09:36:02,201 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Community.topics -> TOPIC>
+2013-03-04 09:36:02,204 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Community.bulletins -> BULLETIN>
+2013-03-04 09:36:02,204 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Major.courses -> COURSE>
+2013-03-04 09:36:02,208 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Course.communities -> COMMUNITY>
+2013-03-04 09:36:02,209 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Academy.majors -> MAJOR>
+2013-03-04 09:36:02,210 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Topic.subTopicSet -> SUB_TOPIC>
+2013-03-04 09:36:02,260 INFO [org.hibernate.cfg.Configuration] - <Hibernate Validator not found: ignoring>
+2013-03-04 09:36:02,275 INFO [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] - <Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.>
+2013-03-04 09:36:02,288 INFO [org.hibernate.connection.ConnectionProviderFactory] - <Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider>
+2013-03-04 09:36:02,895 INFO [org.hibernate.dialect.Dialect] - <Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-03-04 09:36:02,915 INFO [org.hibernate.engine.jdbc.JdbcSupportLoader] - <Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-03-04 09:36:02,916 INFO [org.hibernate.cfg.SettingsFactory] - <Database ->
+       name : MySQL
+    version : 5.1.61
+      major : 5
+      minor : 1>
+2013-03-04 09:36:02,917 INFO [org.hibernate.cfg.SettingsFactory] - <Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.9 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1>
+2013-03-04 09:36:02,920 INFO [org.hibernate.transaction.TransactionFactoryFactory] - <Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory>
+2013-03-04 09:36:02,923 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - <No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)>
+2013-03-04 09:36:02,924 INFO [org.hibernate.cfg.SettingsFactory] - <Automatic flush during beforeCompletion(): disabled>
+2013-03-04 09:36:02,924 INFO [org.hibernate.cfg.SettingsFactory] - <Automatic session close at end of transaction: disabled>
+2013-03-04 09:36:02,929 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC batch size: 50>
+2013-03-04 09:36:02,930 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC batch updates for versioned data: disabled>
+2013-03-04 09:36:02,932 INFO [org.hibernate.cfg.SettingsFactory] - <Scrollable result sets: enabled>
+2013-03-04 09:36:02,932 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC3 getGeneratedKeys(): enabled>
+2013-03-04 09:36:02,938 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC result set fetch size: 50>
+2013-03-04 09:36:02,938 INFO [org.hibernate.cfg.SettingsFactory] - <Connection release mode: auto>
+2013-03-04 09:36:02,940 INFO [org.hibernate.cfg.SettingsFactory] - <Maximum outer join fetch depth: 2>
+2013-03-04 09:36:02,941 INFO [org.hibernate.cfg.SettingsFactory] - <Default batch fetch size: 1>
+2013-03-04 09:36:02,941 INFO [org.hibernate.cfg.SettingsFactory] - <Generate SQL with comments: disabled>
+2013-03-04 09:36:02,942 INFO [org.hibernate.cfg.SettingsFactory] - <Order SQL updates by primary key: disabled>
+2013-03-04 09:36:02,942 INFO [org.hibernate.cfg.SettingsFactory] - <Order SQL inserts for batching: disabled>
+2013-03-04 09:36:02,942 INFO [org.hibernate.cfg.SettingsFactory] - <Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory>
+2013-03-04 09:36:02,949 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - <Using ASTQueryTranslatorFactory>
+2013-03-04 09:36:02,950 INFO [org.hibernate.cfg.SettingsFactory] - <Query language substitutions: {}>
+2013-03-04 09:36:02,950 INFO [org.hibernate.cfg.SettingsFactory] - <JPA-QL strict compliance: disabled>
+2013-03-04 09:36:02,951 INFO [org.hibernate.cfg.SettingsFactory] - <Second-level cache: enabled>
+2013-03-04 09:36:02,951 INFO [org.hibernate.cfg.SettingsFactory] - <Query cache: enabled>
+2013-03-04 09:36:02,953 INFO [org.hibernate.cfg.SettingsFactory] - <Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge>
+2013-03-04 09:36:02,960 INFO [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] - <Cache provider: org.hibernate.cache.EhCacheProvider>
+2013-03-04 09:36:02,985 INFO [org.hibernate.cfg.SettingsFactory] - <Optimize cache for minimal puts: disabled>
+2013-03-04 09:36:02,985 INFO [org.hibernate.cfg.SettingsFactory] - <Structured second-level cache entries: disabled>
+2013-03-04 09:36:02,986 INFO [org.hibernate.cfg.SettingsFactory] - <Query cache factory: org.hibernate.cache.StandardQueryCacheFactory>
+2013-03-04 09:36:02,998 INFO [org.hibernate.cfg.SettingsFactory] - <Statistics: disabled>
+2013-03-04 09:36:02,998 INFO [org.hibernate.cfg.SettingsFactory] - <Deleted entity synthetic identifier rollback: disabled>
+2013-03-04 09:36:02,999 INFO [org.hibernate.cfg.SettingsFactory] - <Default entity-mode: pojo>
+2013-03-04 09:36:02,999 INFO [org.hibernate.cfg.SettingsFactory] - <Named query checking : enabled>
+2013-03-04 09:36:03,000 INFO [org.hibernate.cfg.SettingsFactory] - <Check Nullability in Core (should be disabled when Bean Validation is on): disabled>
+2013-03-04 09:36:03,030 INFO [org.hibernate.impl.SessionFactoryImpl] - <building session factory>
+2013-03-04 09:36:03,040 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@5a8a7e>
+2013-03-04 09:36:03,041 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [clob] overrides previous : org.hibernate.type.ClobType@3a586d>
+2013-03-04 09:36:03,041 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@3a586d>
+2013-03-04 09:36:03,041 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@83874e>
+2013-03-04 09:36:03,041 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@12833ff>
+2013-03-04 09:36:03,042 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6dcfde>
+2013-03-04 09:36:03,042 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@16a3075>
+2013-03-04 09:36:03,042 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [blob] overrides previous : org.hibernate.type.BlobType@93886b>
+2013-03-04 09:36:03,043 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@93886b>
+2013-03-04 09:36:03,470 WARN [org.hibernate.id.UUIDHexGenerator] - <Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead>
+2013-03-04 09:36:03,712 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [com.bupt.pcncad.domain.Academy]; using defaults.>
+2013-03-04 09:36:03,716 WARN [org.hibernate.cache.impl.bridge.EntityRegionAdapter] - <read-only cache configured for mutable entity [com.bupt.pcncad.domain.Academy]>
+2013-03-04 09:36:03,767 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [com.bupt.pcncad.domain.Major]; using defaults.>
+2013-03-04 09:36:03,768 WARN [org.hibernate.cache.impl.bridge.EntityRegionAdapter] - <read-only cache configured for mutable entity [com.bupt.pcncad.domain.Major]>
+2013-03-04 09:36:04,053 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - <Not binding factory to JNDI, no JNDI name configured>
+2013-03-04 09:36:04,061 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <Running hbm2ddl schema update>
+2013-03-04 09:36:04,061 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <fetching database metadata>
+2013-03-04 09:36:04,066 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <updating schema>
+2013-03-04 09:36:04,119 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.ACADEMY>
+2013-03-04 09:36:04,120 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, name]>
+2013-03-04 09:36:04,120 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 09:36:04,120 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 09:36:04,144 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.BULLETIN>
+2013-03-04 09:36:04,144 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, pub_date, community_id]>
+2013-03-04 09:36:04,144 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkde7f29a7df3410c9]>
+2013-03-04 09:36:04,145 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fkde7f29a7df3410c9, primary]>
+2013-03-04 09:36:04,178 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COMMUNITY>
+2013-03-04 09:36:04,179 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, name, state, admin_id, course_id]>
+2013-03-04 09:36:04,179 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk4ddd3fc9809bda8b, fk4ddd3fc9a1487ec7]>
+2013-03-04 09:36:04,179 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk4ddd3fc9809bda8b, fk4ddd3fc9a1487ec7, primary]>
+2013-03-04 09:36:04,208 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COMMUNITY_USER>
+2013-03-04 09:36:04,208 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, community_id]>
+2013-03-04 09:36:04,209 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkb1f2d281d246f4cb, fkb1f2d281df3410c9]>
+2013-03-04 09:36:04,209 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fkb1f2d281df3410c9, fkb1f2d281d246f4cb]>
+2013-03-04 09:36:04,241 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COURSE>
+2013-03-04 09:36:04,242 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, term, major_id, name]>
+2013-03-04 09:36:04,242 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk76d5d41b874bae49]>
+2013-03-04 09:36:04,243 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk76d5d41b874bae49, primary]>
+2013-03-04 09:36:04,275 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.DIRECTORY>
+2013-03-04 09:36:04,276 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, dir_name, user_id]>
+2013-03-04 09:36:04,277 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk6cb82e4dd246f4cb]>
+2013-03-04 09:36:04,277 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk6cb82e4dd246f4cb, primary]>
+2013-03-04 09:36:04,512 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.GROUP_USER>
+2013-03-04 09:36:04,513 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [group_id, user_id]>
+2013-03-04 09:36:04,513 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk6b1ec1abd246f4cb, fk6b1ec1aba3ddb089]>
+2013-03-04 09:36:04,513 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk6b1ec1abd246f4cb, fk6b1ec1aba3ddb089, primary]>
+2013-03-04 09:36:04,539 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.MAJOR>
+2013-03-04 09:36:04,540 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, academy_id, name]>
+2013-03-04 09:36:04,540 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk45bbd991e1a2da9]>
+2013-03-04 09:36:04,541 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk45bbd991e1a2da9, primary]>
+2013-03-04 09:36:04,577 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.RESOURCE>
+2013-03-04 09:36:04,577 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [collect_times, resource_mark, resource_snapshot_path, id, upload_time, upload_user_id, category, description, key_words, resource_size, delete_flag, resource_type, resource_real_name, download_times, share_times]>
+2013-03-04 09:36:04,578 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk1a51b40e3b31188d]>
+2013-03-04 09:36:04,579 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk1a51b40e3b31188d]>
+2013-03-04 09:36:04,610 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.RESOURCE_COURSE>
+2013-03-04 09:36:04,611 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, course_id]>
+2013-03-04 09:36:04,611 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkf2b2116c809bda8b, fkf2b2116c193d896b]>
+2013-03-04 09:36:04,612 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fkf2b2116c809bda8b, fkf2b2116c193d896b]>
+2013-03-04 09:36:04,643 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.SUB_TOPIC>
+2013-03-04 09:36:04,643 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, pub_date, author_id, reply_topic_id]>
+2013-03-04 09:36:04,644 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkda30623032ffe70b, fkda306230a61ab83e]>
+2013-03-04 09:36:04,644 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fkda30623032ffe70b, primary, fkda306230a61ab83e]>
+2013-03-04 09:36:04,670 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TAG>
+2013-03-04 09:36:04,670 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, tag_name, reference_times]>
+2013-03-04 09:36:04,671 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 09:36:04,671 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 09:36:04,704 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TAG_RESOURCE>
+2013-03-04 09:36:04,704 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, tag_id]>
+2013-03-04 09:36:04,705 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk3470eb33193d896b, fk3470eb33e30e5669]>
+2013-03-04 09:36:04,705 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk3470eb33e30e5669, fk3470eb33193d896b, primary]>
+2013-03-04 09:36:04,730 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TOPIC>
+2013-03-04 09:36:04,731 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, title, pub_date, author_id, community_id]>
+2013-03-04 09:36:04,731 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk4c4d50f32ffe70b, fk4c4d50fdf3410c9]>
+2013-03-04 09:36:04,731 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk4c4d50f32ffe70b, fk4c4d50fdf3410c9]>
+2013-03-04 09:36:04,762 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER>
+2013-03-04 09:36:04,762 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_gender, id, user_name, first_login_time, state, role, user_teleph, user_password, user_birth, user_id, user_email, activity]>
+2013-03-04 09:36:04,763 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 09:36:04,764 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 09:36:05,000 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_COLLECT_RESOURCE>
+2013-03-04 09:36:05,001 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 09:36:05,002 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk901f3197d246f4cb, fk901f3197193d896b]>
+2013-03-04 09:36:05,002 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk901f3197d246f4cb, fk901f3197193d896b, primary]>
+2013-03-04 09:36:05,030 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_DOWNLOAD_RESOURCE>
+2013-03-04 09:36:05,031 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 09:36:05,031 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk659cd671193d896b, fk659cd671d246f4cb]>
+2013-03-04 09:36:05,032 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk659cd671193d896b, fk659cd671d246f4cb]>
+2013-03-04 09:36:05,265 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_FOLLOW_COURSE>
+2013-03-04 09:36:05,265 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, course_id]>
+2013-03-04 09:36:05,266 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk49ac7ef5809bda8b, fk49ac7ef5d246f4cb]>
+2013-03-04 09:36:05,266 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk49ac7ef5809bda8b, primary, fk49ac7ef5d246f4cb]>
+2013-03-04 09:36:05,296 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_FOLLOW_MAJOR>
+2013-03-04 09:36:05,296 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [major_id, user_id]>
+2013-03-04 09:36:05,297 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk44f74f7fd246f4cb, fk44f74f7f874bae49]>
+2013-03-04 09:36:05,297 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk44f74f7fd246f4cb, fk44f74f7f874bae49]>
+2013-03-04 09:36:05,325 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_SHARE_RESOURCE>
+2013-03-04 09:36:05,325 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 09:36:05,326 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk486def82193d896b, fk486def82d246f4cb]>
+2013-03-04 09:36:05,326 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk486def82193d896b, fk486def82d246f4cb]>
+2013-03-04 09:36:05,351 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_TAG>
+2013-03-04 09:36:05,352 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, tag_id]>
+2013-03-04 09:36:05,352 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk1ed77906e30e5669, fk1ed77906d246f4cb]>
+2013-03-04 09:36:05,353 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk1ed77906e30e5669, fk1ed77906d246f4cb]>
+2013-03-04 09:36:05,377 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.GROUP>
+2013-03-04 09:36:05,377 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [group_name, id, description, group_users_count, group_admin_id]>
+2013-03-04 09:36:05,378 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk40efe5ffff09887]>
+2013-03-04 09:36:05,378 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk40efe5ffff09887, primary]>
+2013-03-04 09:36:05,383 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <schema update complete>
+2013-03-04 09:36:05,390 INFO [org.hibernate.cache.UpdateTimestampsCache] - <starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache>
+2013-03-04 09:36:05,392 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.>
+2013-03-04 09:36:05,394 INFO [org.hibernate.cache.StandardQueryCache] - <starting query cache at region: org.hibernate.cache.StandardQueryCache>
+2013-03-04 09:36:05,395 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.>
+2013-03-04 09:36:08,237 INFO [org.hibernate.impl.SessionFactoryImpl] - <closing>
+2013-03-04 09:37:29,439 INFO [org.hibernate.annotations.common.Version] - <Hibernate Commons Annotations 3.2.0.Final>
+2013-03-04 09:37:29,447 INFO [org.hibernate.cfg.Environment] - <Hibernate 3.6.9.Final>
+2013-03-04 09:37:29,449 INFO [org.hibernate.cfg.Environment] - <hibernate.properties not found>
+2013-03-04 09:37:29,453 INFO [org.hibernate.cfg.Environment] - <Bytecode provider name : javassist>
+2013-03-04 09:37:29,458 INFO [org.hibernate.cfg.Environment] - <using JDK 1.4 java.sql.Timestamp handling>
+2013-03-04 09:37:29,640 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Topic>
+2013-03-04 09:37:29,692 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Topic on table TOPIC>
+2013-03-04 09:37:29,815 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Academy>
+2013-03-04 09:37:29,816 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Academy on table ACADEMY>
+2013-03-04 09:37:29,820 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Group>
+2013-03-04 09:37:29,820 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Group on table GROUP>
+2013-03-04 09:37:29,831 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Resource>
+2013-03-04 09:37:29,832 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Resource on table RESOURCE>
+2013-03-04 09:37:29,848 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Course>
+2013-03-04 09:37:29,848 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Course on table COURSE>
+2013-03-04 09:37:29,854 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.User>
+2013-03-04 09:37:29,855 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.User on table USER>
+2013-03-04 09:37:29,875 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.SubTopic>
+2013-03-04 09:37:29,876 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.SubTopic on table SUB_TOPIC>
+2013-03-04 09:37:29,880 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Directory>
+2013-03-04 09:37:29,881 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Directory on table DIRECTORY>
+2013-03-04 09:37:29,884 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Major>
+2013-03-04 09:37:29,885 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Major on table MAJOR>
+2013-03-04 09:37:29,892 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Bulletin>
+2013-03-04 09:37:29,892 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Bulletin on table BULLETIN>
+2013-03-04 09:37:29,895 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Tag>
+2013-03-04 09:37:29,896 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Tag on table TAG>
+2013-03-04 09:37:29,901 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Community>
+2013-03-04 09:37:29,901 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Community on table COMMUNITY>
+2013-03-04 09:37:29,936 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Community.topics -> TOPIC>
+2013-03-04 09:37:29,938 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Community.bulletins -> BULLETIN>
+2013-03-04 09:37:29,939 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Major.courses -> COURSE>
+2013-03-04 09:37:29,943 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Course.communities -> COMMUNITY>
+2013-03-04 09:37:29,944 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Academy.majors -> MAJOR>
+2013-03-04 09:37:29,944 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Topic.subTopicSet -> SUB_TOPIC>
+2013-03-04 09:37:29,953 INFO [org.hibernate.cfg.Configuration] - <Hibernate Validator not found: ignoring>
+2013-03-04 09:37:29,961 INFO [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] - <Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.>
+2013-03-04 09:37:29,969 INFO [org.hibernate.connection.ConnectionProviderFactory] - <Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider>
+2013-03-04 09:37:30,459 INFO [org.hibernate.dialect.Dialect] - <Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-03-04 09:37:30,481 INFO [org.hibernate.engine.jdbc.JdbcSupportLoader] - <Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-03-04 09:37:30,482 INFO [org.hibernate.cfg.SettingsFactory] - <Database ->
+       name : MySQL
+    version : 5.1.61
+      major : 5
+      minor : 1>
+2013-03-04 09:37:30,483 INFO [org.hibernate.cfg.SettingsFactory] - <Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.9 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1>
+2013-03-04 09:37:30,486 INFO [org.hibernate.transaction.TransactionFactoryFactory] - <Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory>
+2013-03-04 09:37:30,490 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - <No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)>
+2013-03-04 09:37:30,491 INFO [org.hibernate.cfg.SettingsFactory] - <Automatic flush during beforeCompletion(): disabled>
+2013-03-04 09:37:30,491 INFO [org.hibernate.cfg.SettingsFactory] - <Automatic session close at end of transaction: disabled>
+2013-03-04 09:37:30,492 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC batch size: 50>
+2013-03-04 09:37:30,492 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC batch updates for versioned data: disabled>
+2013-03-04 09:37:30,495 INFO [org.hibernate.cfg.SettingsFactory] - <Scrollable result sets: enabled>
+2013-03-04 09:37:30,495 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC3 getGeneratedKeys(): enabled>
+2013-03-04 09:37:30,496 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC result set fetch size: 50>
+2013-03-04 09:37:30,497 INFO [org.hibernate.cfg.SettingsFactory] - <Connection release mode: auto>
+2013-03-04 09:37:30,499 INFO [org.hibernate.cfg.SettingsFactory] - <Maximum outer join fetch depth: 2>
+2013-03-04 09:37:30,500 INFO [org.hibernate.cfg.SettingsFactory] - <Default batch fetch size: 1>
+2013-03-04 09:37:30,500 INFO [org.hibernate.cfg.SettingsFactory] - <Generate SQL with comments: disabled>
+2013-03-04 09:37:30,501 INFO [org.hibernate.cfg.SettingsFactory] - <Order SQL updates by primary key: disabled>
+2013-03-04 09:37:30,502 INFO [org.hibernate.cfg.SettingsFactory] - <Order SQL inserts for batching: disabled>
+2013-03-04 09:37:30,502 INFO [org.hibernate.cfg.SettingsFactory] - <Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory>
+2013-03-04 09:37:30,507 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - <Using ASTQueryTranslatorFactory>
+2013-03-04 09:37:30,508 INFO [org.hibernate.cfg.SettingsFactory] - <Query language substitutions: {}>
+2013-03-04 09:37:30,509 INFO [org.hibernate.cfg.SettingsFactory] - <JPA-QL strict compliance: disabled>
+2013-03-04 09:37:30,509 INFO [org.hibernate.cfg.SettingsFactory] - <Second-level cache: enabled>
+2013-03-04 09:37:30,510 INFO [org.hibernate.cfg.SettingsFactory] - <Query cache: enabled>
+2013-03-04 09:37:30,512 INFO [org.hibernate.cfg.SettingsFactory] - <Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge>
+2013-03-04 09:37:30,519 INFO [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] - <Cache provider: org.hibernate.cache.EhCacheProvider>
+2013-03-04 09:37:30,527 INFO [org.hibernate.cfg.SettingsFactory] - <Optimize cache for minimal puts: disabled>
+2013-03-04 09:37:30,528 INFO [org.hibernate.cfg.SettingsFactory] - <Structured second-level cache entries: disabled>
+2013-03-04 09:37:30,529 INFO [org.hibernate.cfg.SettingsFactory] - <Query cache factory: org.hibernate.cache.StandardQueryCacheFactory>
+2013-03-04 09:37:30,544 INFO [org.hibernate.cfg.SettingsFactory] - <Statistics: disabled>
+2013-03-04 09:37:30,545 INFO [org.hibernate.cfg.SettingsFactory] - <Deleted entity synthetic identifier rollback: disabled>
+2013-03-04 09:37:30,545 INFO [org.hibernate.cfg.SettingsFactory] - <Default entity-mode: pojo>
+2013-03-04 09:37:30,546 INFO [org.hibernate.cfg.SettingsFactory] - <Named query checking : enabled>
+2013-03-04 09:37:30,546 INFO [org.hibernate.cfg.SettingsFactory] - <Check Nullability in Core (should be disabled when Bean Validation is on): disabled>
+2013-03-04 09:37:30,584 INFO [org.hibernate.impl.SessionFactoryImpl] - <building session factory>
+2013-03-04 09:37:30,599 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [blob] overrides previous : org.hibernate.type.BlobType@b9459c>
+2013-03-04 09:37:30,600 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@b9459c>
+2013-03-04 09:37:30,600 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1891172>
+2013-03-04 09:37:30,601 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1d869b2>
+2013-03-04 09:37:30,601 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1033fb5>
+2013-03-04 09:37:30,602 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@4ba778>
+2013-03-04 09:37:30,602 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [clob] overrides previous : org.hibernate.type.ClobType@dfe491>
+2013-03-04 09:37:30,603 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@dfe491>
+2013-03-04 09:37:30,603 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@117140b>
+2013-03-04 09:37:30,804 WARN [org.hibernate.id.UUIDHexGenerator] - <Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead>
+2013-03-04 09:37:30,997 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [com.bupt.pcncad.domain.Academy]; using defaults.>
+2013-03-04 09:37:31,000 WARN [org.hibernate.cache.impl.bridge.EntityRegionAdapter] - <read-only cache configured for mutable entity [com.bupt.pcncad.domain.Academy]>
+2013-03-04 09:37:31,048 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [com.bupt.pcncad.domain.Major]; using defaults.>
+2013-03-04 09:37:31,050 WARN [org.hibernate.cache.impl.bridge.EntityRegionAdapter] - <read-only cache configured for mutable entity [com.bupt.pcncad.domain.Major]>
+2013-03-04 09:37:31,265 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - <Not binding factory to JNDI, no JNDI name configured>
+2013-03-04 09:37:31,278 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <Running hbm2ddl schema update>
+2013-03-04 09:37:31,279 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <fetching database metadata>
+2013-03-04 09:37:31,286 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <updating schema>
+2013-03-04 09:37:31,340 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.ACADEMY>
+2013-03-04 09:37:31,340 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, name]>
+2013-03-04 09:37:31,341 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 09:37:31,341 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 09:37:31,378 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.BULLETIN>
+2013-03-04 09:37:31,379 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, pub_date, community_id]>
+2013-03-04 09:37:31,380 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkde7f29a7df3410c9]>
+2013-03-04 09:37:31,380 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fkde7f29a7df3410c9, primary]>
+2013-03-04 09:37:31,416 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COMMUNITY>
+2013-03-04 09:37:31,417 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, name, state, admin_id, course_id]>
+2013-03-04 09:37:31,417 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk4ddd3fc9809bda8b, fk4ddd3fc9a1487ec7]>
+2013-03-04 09:37:31,417 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk4ddd3fc9809bda8b, fk4ddd3fc9a1487ec7, primary]>
+2013-03-04 09:37:31,448 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COMMUNITY_USER>
+2013-03-04 09:37:31,449 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, community_id]>
+2013-03-04 09:37:31,449 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkb1f2d281d246f4cb, fkb1f2d281df3410c9]>
+2013-03-04 09:37:31,450 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fkb1f2d281df3410c9, fkb1f2d281d246f4cb]>
+2013-03-04 09:37:31,485 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COURSE>
+2013-03-04 09:37:31,485 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, term, major_id, name]>
+2013-03-04 09:37:31,486 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk76d5d41b874bae49]>
+2013-03-04 09:37:31,486 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk76d5d41b874bae49, primary]>
+2013-03-04 09:37:31,515 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.DIRECTORY>
+2013-03-04 09:37:31,515 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, dir_name, user_id]>
+2013-03-04 09:37:31,516 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk6cb82e4dd246f4cb]>
+2013-03-04 09:37:31,516 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk6cb82e4dd246f4cb, primary]>
+2013-03-04 09:37:31,726 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.GROUP_USER>
+2013-03-04 09:37:31,727 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [group_id, user_id]>
+2013-03-04 09:37:31,727 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk6b1ec1abd246f4cb, fk6b1ec1aba3ddb089]>
+2013-03-04 09:37:31,728 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk6b1ec1abd246f4cb, fk6b1ec1aba3ddb089, primary]>
+2013-03-04 09:37:31,787 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.MAJOR>
+2013-03-04 09:37:31,787 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, academy_id, name]>
+2013-03-04 09:37:31,787 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk45bbd991e1a2da9]>
+2013-03-04 09:37:31,788 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk45bbd991e1a2da9, primary]>
+2013-03-04 09:37:31,826 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.RESOURCE>
+2013-03-04 09:37:31,826 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [collect_times, resource_mark, resource_snapshot_path, id, upload_time, upload_user_id, category, description, key_words, resource_size, delete_flag, resource_type, resource_real_name, download_times, share_times]>
+2013-03-04 09:37:31,826 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk1a51b40e3b31188d]>
+2013-03-04 09:37:31,827 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk1a51b40e3b31188d]>
+2013-03-04 09:37:31,860 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.RESOURCE_COURSE>
+2013-03-04 09:37:31,861 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, course_id]>
+2013-03-04 09:37:31,861 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkf2b2116c809bda8b, fkf2b2116c193d896b]>
+2013-03-04 09:37:31,862 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fkf2b2116c809bda8b, fkf2b2116c193d896b]>
+2013-03-04 09:37:31,897 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.SUB_TOPIC>
+2013-03-04 09:37:31,898 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, pub_date, author_id, reply_topic_id]>
+2013-03-04 09:37:31,898 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkda30623032ffe70b, fkda306230a61ab83e]>
+2013-03-04 09:37:31,899 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fkda30623032ffe70b, primary, fkda306230a61ab83e]>
+2013-03-04 09:37:31,929 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TAG>
+2013-03-04 09:37:31,929 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, tag_name, reference_times]>
+2013-03-04 09:37:31,929 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 09:37:31,930 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 09:37:31,960 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TAG_RESOURCE>
+2013-03-04 09:37:31,961 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, tag_id]>
+2013-03-04 09:37:31,962 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk3470eb33193d896b, fk3470eb33e30e5669]>
+2013-03-04 09:37:31,962 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk3470eb33e30e5669, fk3470eb33193d896b, primary]>
+2013-03-04 09:37:31,992 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TOPIC>
+2013-03-04 09:37:31,992 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, title, pub_date, author_id, community_id]>
+2013-03-04 09:37:31,993 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk4c4d50f32ffe70b, fk4c4d50fdf3410c9]>
+2013-03-04 09:37:31,993 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk4c4d50f32ffe70b, fk4c4d50fdf3410c9]>
+2013-03-04 09:37:32,021 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER>
+2013-03-04 09:37:32,022 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_gender, id, user_name, first_login_time, state, role, user_teleph, user_password, user_birth, user_id, user_email, activity]>
+2013-03-04 09:37:32,022 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 09:37:32,022 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 09:37:32,049 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_COLLECT_RESOURCE>
+2013-03-04 09:37:32,049 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 09:37:32,049 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk901f3197d246f4cb, fk901f3197193d896b]>
+2013-03-04 09:37:32,050 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk901f3197d246f4cb, fk901f3197193d896b, primary]>
+2013-03-04 09:37:32,072 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_DOWNLOAD_RESOURCE>
+2013-03-04 09:37:32,072 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 09:37:32,072 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk659cd671193d896b, fk659cd671d246f4cb]>
+2013-03-04 09:37:32,072 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk659cd671193d896b, fk659cd671d246f4cb]>
+2013-03-04 09:37:32,100 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_FOLLOW_COURSE>
+2013-03-04 09:37:32,100 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, course_id]>
+2013-03-04 09:37:32,101 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk49ac7ef5809bda8b, fk49ac7ef5d246f4cb]>
+2013-03-04 09:37:32,102 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk49ac7ef5809bda8b, primary, fk49ac7ef5d246f4cb]>
+2013-03-04 09:37:32,133 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_FOLLOW_MAJOR>
+2013-03-04 09:37:32,134 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [major_id, user_id]>
+2013-03-04 09:37:32,134 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk44f74f7fd246f4cb, fk44f74f7f874bae49]>
+2013-03-04 09:37:32,135 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk44f74f7fd246f4cb, fk44f74f7f874bae49]>
+2013-03-04 09:37:32,164 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_SHARE_RESOURCE>
+2013-03-04 09:37:32,165 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 09:37:32,165 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk486def82193d896b, fk486def82d246f4cb]>
+2013-03-04 09:37:32,166 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk486def82193d896b, fk486def82d246f4cb]>
+2013-03-04 09:37:32,196 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_TAG>
+2013-03-04 09:37:32,197 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, tag_id]>
+2013-03-04 09:37:32,198 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk1ed77906e30e5669, fk1ed77906d246f4cb]>
+2013-03-04 09:37:32,198 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk1ed77906e30e5669, fk1ed77906d246f4cb]>
+2013-03-04 09:37:32,228 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.GROUP>
+2013-03-04 09:37:32,228 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [group_name, id, description, group_users_count, group_admin_id]>
+2013-03-04 09:37:32,228 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk40efe5ffff09887]>
+2013-03-04 09:37:32,228 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk40efe5ffff09887, primary]>
+2013-03-04 09:37:32,233 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <schema update complete>
+2013-03-04 09:37:32,238 INFO [org.hibernate.cache.UpdateTimestampsCache] - <starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache>
+2013-03-04 09:37:32,239 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.>
+2013-03-04 09:37:32,242 INFO [org.hibernate.cache.StandardQueryCache] - <starting query cache at region: org.hibernate.cache.StandardQueryCache>
+2013-03-04 09:37:32,243 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.>
+2013-03-04 09:37:34,600 INFO [org.hibernate.impl.SessionFactoryImpl] - <closing>
+2013-03-04 10:32:19,039 INFO [org.hibernate.annotations.common.Version] - <Hibernate Commons Annotations 3.2.0.Final>
+2013-03-04 10:32:19,046 INFO [org.hibernate.cfg.Environment] - <Hibernate 3.6.9.Final>
+2013-03-04 10:32:19,048 INFO [org.hibernate.cfg.Environment] - <hibernate.properties not found>
+2013-03-04 10:32:19,052 INFO [org.hibernate.cfg.Environment] - <Bytecode provider name : javassist>
+2013-03-04 10:32:19,057 INFO [org.hibernate.cfg.Environment] - <using JDK 1.4 java.sql.Timestamp handling>
+2013-03-04 10:32:19,252 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Topic>
+2013-03-04 10:32:19,306 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Topic on table TOPIC>
+2013-03-04 10:32:19,429 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Academy>
+2013-03-04 10:32:19,430 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Academy on table ACADEMY>
+2013-03-04 10:32:19,434 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Group>
+2013-03-04 10:32:19,435 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Group on table GROUP>
+2013-03-04 10:32:19,445 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Resource>
+2013-03-04 10:32:19,446 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Resource on table RESOURCE>
+2013-03-04 10:32:19,462 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Course>
+2013-03-04 10:32:19,463 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Course on table COURSE>
+2013-03-04 10:32:19,469 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.User>
+2013-03-04 10:32:19,469 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.User on table USER>
+2013-03-04 10:32:19,496 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.SubTopic>
+2013-03-04 10:32:19,497 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.SubTopic on table SUB_TOPIC>
+2013-03-04 10:32:19,506 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Directory>
+2013-03-04 10:32:19,507 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Directory on table DIRECTORY>
+2013-03-04 10:32:19,509 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Major>
+2013-03-04 10:32:19,510 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Major on table MAJOR>
+2013-03-04 10:32:19,517 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Bulletin>
+2013-03-04 10:32:19,518 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Bulletin on table BULLETIN>
+2013-03-04 10:32:19,521 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Tag>
+2013-03-04 10:32:19,521 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Tag on table TAG>
+2013-03-04 10:32:19,526 INFO [org.hibernate.cfg.AnnotationBinder] - <Binding entity from annotated class: com.bupt.pcncad.domain.Community>
+2013-03-04 10:32:19,527 INFO [org.hibernate.cfg.annotations.EntityBinder] - <Bind entity com.bupt.pcncad.domain.Community on table COMMUNITY>
+2013-03-04 10:32:19,550 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Community.topics -> TOPIC>
+2013-03-04 10:32:19,552 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Community.bulletins -> BULLETIN>
+2013-03-04 10:32:19,553 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Major.courses -> COURSE>
+2013-03-04 10:32:19,557 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Course.communities -> COMMUNITY>
+2013-03-04 10:32:19,558 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Academy.majors -> MAJOR>
+2013-03-04 10:32:19,558 INFO [org.hibernate.cfg.annotations.CollectionBinder] - <Mapping collection: com.bupt.pcncad.domain.Topic.subTopicSet -> SUB_TOPIC>
+2013-03-04 10:32:19,567 INFO [org.hibernate.cfg.Configuration] - <Hibernate Validator not found: ignoring>
+2013-03-04 10:32:19,578 INFO [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] - <Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.>
+2013-03-04 10:32:19,585 INFO [org.hibernate.connection.ConnectionProviderFactory] - <Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider>
+2013-03-04 10:32:20,125 INFO [org.hibernate.dialect.Dialect] - <Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-03-04 10:32:20,142 INFO [org.hibernate.engine.jdbc.JdbcSupportLoader] - <Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-03-04 10:32:20,143 INFO [org.hibernate.cfg.SettingsFactory] - <Database ->
+       name : MySQL
+    version : 5.1.61
+      major : 5
+      minor : 1>
+2013-03-04 10:32:20,144 INFO [org.hibernate.cfg.SettingsFactory] - <Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.9 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1>
+2013-03-04 10:32:20,147 INFO [org.hibernate.transaction.TransactionFactoryFactory] - <Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory>
+2013-03-04 10:32:20,152 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - <No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)>
+2013-03-04 10:32:20,153 INFO [org.hibernate.cfg.SettingsFactory] - <Automatic flush during beforeCompletion(): disabled>
+2013-03-04 10:32:20,154 INFO [org.hibernate.cfg.SettingsFactory] - <Automatic session close at end of transaction: disabled>
+2013-03-04 10:32:20,155 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC batch size: 50>
+2013-03-04 10:32:20,156 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC batch updates for versioned data: disabled>
+2013-03-04 10:32:20,158 INFO [org.hibernate.cfg.SettingsFactory] - <Scrollable result sets: enabled>
+2013-03-04 10:32:20,159 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC3 getGeneratedKeys(): enabled>
+2013-03-04 10:32:20,160 INFO [org.hibernate.cfg.SettingsFactory] - <JDBC result set fetch size: 50>
+2013-03-04 10:32:20,161 INFO [org.hibernate.cfg.SettingsFactory] - <Connection release mode: auto>
+2013-03-04 10:32:20,163 INFO [org.hibernate.cfg.SettingsFactory] - <Maximum outer join fetch depth: 2>
+2013-03-04 10:32:20,164 INFO [org.hibernate.cfg.SettingsFactory] - <Default batch fetch size: 1>
+2013-03-04 10:32:20,165 INFO [org.hibernate.cfg.SettingsFactory] - <Generate SQL with comments: disabled>
+2013-03-04 10:32:20,165 INFO [org.hibernate.cfg.SettingsFactory] - <Order SQL updates by primary key: disabled>
+2013-03-04 10:32:20,166 INFO [org.hibernate.cfg.SettingsFactory] - <Order SQL inserts for batching: disabled>
+2013-03-04 10:32:20,167 INFO [org.hibernate.cfg.SettingsFactory] - <Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory>
+2013-03-04 10:32:20,171 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - <Using ASTQueryTranslatorFactory>
+2013-03-04 10:32:20,172 INFO [org.hibernate.cfg.SettingsFactory] - <Query language substitutions: {}>
+2013-03-04 10:32:20,173 INFO [org.hibernate.cfg.SettingsFactory] - <JPA-QL strict compliance: disabled>
+2013-03-04 10:32:20,173 INFO [org.hibernate.cfg.SettingsFactory] - <Second-level cache: enabled>
+2013-03-04 10:32:20,174 INFO [org.hibernate.cfg.SettingsFactory] - <Query cache: enabled>
+2013-03-04 10:32:20,176 INFO [org.hibernate.cfg.SettingsFactory] - <Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge>
+2013-03-04 10:32:20,184 INFO [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] - <Cache provider: org.hibernate.cache.EhCacheProvider>
+2013-03-04 10:32:20,192 INFO [org.hibernate.cfg.SettingsFactory] - <Optimize cache for minimal puts: disabled>
+2013-03-04 10:32:20,194 INFO [org.hibernate.cfg.SettingsFactory] - <Structured second-level cache entries: disabled>
+2013-03-04 10:32:20,194 INFO [org.hibernate.cfg.SettingsFactory] - <Query cache factory: org.hibernate.cache.StandardQueryCacheFactory>
+2013-03-04 10:32:20,209 INFO [org.hibernate.cfg.SettingsFactory] - <Statistics: disabled>
+2013-03-04 10:32:20,209 INFO [org.hibernate.cfg.SettingsFactory] - <Deleted entity synthetic identifier rollback: disabled>
+2013-03-04 10:32:20,210 INFO [org.hibernate.cfg.SettingsFactory] - <Default entity-mode: pojo>
+2013-03-04 10:32:20,210 INFO [org.hibernate.cfg.SettingsFactory] - <Named query checking : enabled>
+2013-03-04 10:32:20,211 INFO [org.hibernate.cfg.SettingsFactory] - <Check Nullability in Core (should be disabled when Bean Validation is on): disabled>
+2013-03-04 10:32:20,247 INFO [org.hibernate.impl.SessionFactoryImpl] - <building session factory>
+2013-03-04 10:32:20,256 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@9a44f1>
+2013-03-04 10:32:20,257 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@244f74>
+2013-03-04 10:32:20,257 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [clob] overrides previous : org.hibernate.type.ClobType@1dc4cd9>
+2013-03-04 10:32:20,257 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1dc4cd9>
+2013-03-04 10:32:20,258 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@393e97>
+2013-03-04 10:32:20,258 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@3c33d3>
+2013-03-04 10:32:20,258 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@6e7127>
+2013-03-04 10:32:20,259 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [blob] overrides previous : org.hibernate.type.BlobType@c6b8b0>
+2013-03-04 10:32:20,259 INFO [org.hibernate.type.BasicTypeRegistry] - <Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@c6b8b0>
+2013-03-04 10:32:20,450 WARN [org.hibernate.id.UUIDHexGenerator] - <Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead>
+2013-03-04 10:32:20,652 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [com.bupt.pcncad.domain.Academy]; using defaults.>
+2013-03-04 10:32:20,655 WARN [org.hibernate.cache.impl.bridge.EntityRegionAdapter] - <read-only cache configured for mutable entity [com.bupt.pcncad.domain.Academy]>
+2013-03-04 10:32:20,709 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [com.bupt.pcncad.domain.Major]; using defaults.>
+2013-03-04 10:32:20,710 WARN [org.hibernate.cache.impl.bridge.EntityRegionAdapter] - <read-only cache configured for mutable entity [com.bupt.pcncad.domain.Major]>
+2013-03-04 10:32:20,948 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - <Not binding factory to JNDI, no JNDI name configured>
+2013-03-04 10:32:20,960 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <Running hbm2ddl schema update>
+2013-03-04 10:32:20,961 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <fetching database metadata>
+2013-03-04 10:32:20,967 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <updating schema>
+2013-03-04 10:32:21,025 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.ACADEMY>
+2013-03-04 10:32:21,026 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, name]>
+2013-03-04 10:32:21,026 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 10:32:21,026 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 10:32:21,070 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.BULLETIN>
+2013-03-04 10:32:21,070 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, pub_date, community_id]>
+2013-03-04 10:32:21,070 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkde7f29a7df3410c9]>
+2013-03-04 10:32:21,071 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fkde7f29a7df3410c9, primary]>
+2013-03-04 10:32:21,107 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COMMUNITY>
+2013-03-04 10:32:21,107 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, name, state, admin_id, course_id]>
+2013-03-04 10:32:21,108 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk4ddd3fc9809bda8b, fk4ddd3fc9a1487ec7]>
+2013-03-04 10:32:21,109 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk4ddd3fc9809bda8b, fk4ddd3fc9a1487ec7, primary]>
+2013-03-04 10:32:21,145 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COMMUNITY_USER>
+2013-03-04 10:32:21,146 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, community_id]>
+2013-03-04 10:32:21,146 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkb1f2d281d246f4cb, fkb1f2d281df3410c9]>
+2013-03-04 10:32:21,146 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fkb1f2d281df3410c9, fkb1f2d281d246f4cb]>
+2013-03-04 10:32:21,180 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.COURSE>
+2013-03-04 10:32:21,180 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, term, major_id, name]>
+2013-03-04 10:32:21,181 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk76d5d41b874bae49]>
+2013-03-04 10:32:21,181 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk76d5d41b874bae49, primary]>
+2013-03-04 10:32:21,212 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.DIRECTORY>
+2013-03-04 10:32:21,212 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, dir_name, user_id]>
+2013-03-04 10:32:21,212 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk6cb82e4dd246f4cb]>
+2013-03-04 10:32:21,212 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk6cb82e4dd246f4cb, primary]>
+2013-03-04 10:32:21,244 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.GROUP_USER>
+2013-03-04 10:32:21,245 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [group_id, user_id]>
+2013-03-04 10:32:21,245 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk6b1ec1abd246f4cb, fk6b1ec1aba3ddb089]>
+2013-03-04 10:32:21,246 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk6b1ec1abd246f4cb, fk6b1ec1aba3ddb089, primary]>
+2013-03-04 10:32:21,279 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.MAJOR>
+2013-03-04 10:32:21,279 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, academy_id, name]>
+2013-03-04 10:32:21,280 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk45bbd991e1a2da9]>
+2013-03-04 10:32:21,280 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk45bbd991e1a2da9, primary]>
+2013-03-04 10:32:21,321 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.RESOURCE>
+2013-03-04 10:32:21,322 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [collect_times, resource_mark, resource_snapshot_path, id, upload_time, upload_user_id, category, description, key_words, resource_size, delete_flag, resource_type, resource_real_name, download_times, share_times]>
+2013-03-04 10:32:21,323 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk1a51b40e3b31188d]>
+2013-03-04 10:32:21,323 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk1a51b40e3b31188d]>
+2013-03-04 10:32:21,360 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.RESOURCE_COURSE>
+2013-03-04 10:32:21,361 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, course_id]>
+2013-03-04 10:32:21,361 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkf2b2116c809bda8b, fkf2b2116c193d896b]>
+2013-03-04 10:32:21,362 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fkf2b2116c809bda8b, fkf2b2116c193d896b]>
+2013-03-04 10:32:21,392 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.SUB_TOPIC>
+2013-03-04 10:32:21,393 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, pub_date, author_id, reply_topic_id]>
+2013-03-04 10:32:21,393 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fkda30623032ffe70b, fkda306230a61ab83e]>
+2013-03-04 10:32:21,394 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fkda30623032ffe70b, primary, fkda306230a61ab83e]>
+2013-03-04 10:32:21,433 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TAG>
+2013-03-04 10:32:21,434 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [id, tag_name, reference_times]>
+2013-03-04 10:32:21,435 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 10:32:21,435 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 10:32:21,462 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TAG_RESOURCE>
+2013-03-04 10:32:21,462 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, tag_id]>
+2013-03-04 10:32:21,462 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk3470eb33193d896b, fk3470eb33e30e5669]>
+2013-03-04 10:32:21,463 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk3470eb33e30e5669, fk3470eb33193d896b, primary]>
+2013-03-04 10:32:21,494 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.TOPIC>
+2013-03-04 10:32:21,495 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [content, id, title, pub_date, author_id, community_id]>
+2013-03-04 10:32:21,495 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk4c4d50f32ffe70b, fk4c4d50fdf3410c9]>
+2013-03-04 10:32:21,496 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk4c4d50f32ffe70b, fk4c4d50fdf3410c9]>
+2013-03-04 10:32:21,531 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER>
+2013-03-04 10:32:21,531 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_gender, id, user_name, first_login_time, state, role, user_teleph, user_password, user_birth, user_id, user_email, activity]>
+2013-03-04 10:32:21,532 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: []>
+2013-03-04 10:32:21,532 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary]>
+2013-03-04 10:32:21,566 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_COLLECT_RESOURCE>
+2013-03-04 10:32:21,566 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 10:32:21,567 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk901f3197d246f4cb, fk901f3197193d896b]>
+2013-03-04 10:32:21,567 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk901f3197d246f4cb, fk901f3197193d896b, primary]>
+2013-03-04 10:32:21,598 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_DOWNLOAD_RESOURCE>
+2013-03-04 10:32:21,598 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 10:32:21,599 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk659cd671193d896b, fk659cd671d246f4cb]>
+2013-03-04 10:32:21,599 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk659cd671193d896b, fk659cd671d246f4cb]>
+2013-03-04 10:32:21,633 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_FOLLOW_COURSE>
+2013-03-04 10:32:21,634 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, course_id]>
+2013-03-04 10:32:21,634 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk49ac7ef5809bda8b, fk49ac7ef5d246f4cb]>
+2013-03-04 10:32:21,635 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk49ac7ef5809bda8b, primary, fk49ac7ef5d246f4cb]>
+2013-03-04 10:32:21,669 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_FOLLOW_MAJOR>
+2013-03-04 10:32:21,669 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [major_id, user_id]>
+2013-03-04 10:32:21,669 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk44f74f7fd246f4cb, fk44f74f7f874bae49]>
+2013-03-04 10:32:21,670 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk44f74f7fd246f4cb, fk44f74f7f874bae49]>
+2013-03-04 10:32:21,702 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_SHARE_RESOURCE>
+2013-03-04 10:32:21,702 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [resource_id, user_id]>
+2013-03-04 10:32:21,703 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk486def82193d896b, fk486def82d246f4cb]>
+2013-03-04 10:32:21,703 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk486def82193d896b, fk486def82d246f4cb]>
+2013-03-04 10:32:21,737 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.USER_TAG>
+2013-03-04 10:32:21,738 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [user_id, tag_id]>
+2013-03-04 10:32:21,738 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk1ed77906e30e5669, fk1ed77906d246f4cb]>
+2013-03-04 10:32:21,739 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [primary, fk1ed77906e30e5669, fk1ed77906d246f4cb]>
+2013-03-04 10:32:21,773 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <table found: BR.GROUP>
+2013-03-04 10:32:21,774 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <columns: [group_name, id, description, group_users_count, group_admin_id]>
+2013-03-04 10:32:21,775 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <foreign keys: [fk40efe5ffff09887]>
+2013-03-04 10:32:21,775 INFO [org.hibernate.tool.hbm2ddl.TableMetadata] - <indexes: [fk40efe5ffff09887, primary]>
+2013-03-04 10:32:21,782 INFO [org.hibernate.tool.hbm2ddl.SchemaUpdate] - <schema update complete>
+2013-03-04 10:32:21,791 INFO [org.hibernate.cache.UpdateTimestampsCache] - <starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache>
+2013-03-04 10:32:21,794 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.>
+2013-03-04 10:32:21,796 INFO [org.hibernate.cache.StandardQueryCache] - <starting query cache at region: org.hibernate.cache.StandardQueryCache>
+2013-03-04 10:32:21,797 WARN [org.hibernate.cache.EhCacheProvider] - <Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.>
+2013-03-04 10:32:24,271 INFO [org.hibernate.impl.SessionFactoryImpl] - <closing>
