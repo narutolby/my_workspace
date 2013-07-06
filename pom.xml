@@ -469,6 +469,13 @@
             <scope>system</scope>
             <systemPath>${basedir}/src/main/resources/lucenelib/je-analysis-1.4.0.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>json</groupId>
+            <artifactId>name</artifactId>
+            <version>1.o</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/resources/json/json-name-1.0.jar</systemPath>
+        </dependency>
     </dependencies>
     <build>
         <finalName>${artifactId}</finalName>
@@ -480,10 +487,10 @@
                 <configuration>
                     <source>${java-version}</source>
                     <target>${java-version}</target>
-                    <compilerArguments>
+                   <!-- <compilerArguments>
                         <verbose/>
                         <bootclasspath>${java.home}/lib/rt.jar</bootclasspath>
-                    </compilerArguments>
+                    </compilerArguments>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -493,10 +500,24 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
+           <!-- <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <outputDirectory>${output.directory}</outputDirectory>
+                </configuration>
+            </plugin>-->
+             <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.26</version>
+                <configuration>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8080</port>
+                        </connector>
+                    </connectors>
+                    <contextPath>/</contextPath>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
                 </configuration>
             </plugin>
         </plugins>
@@ -536,10 +557,10 @@
                 <jdbc.password>root</jdbc.password>
                 <show.sql>true</show.sql>
                 <log.level>info</log.level>
-                <resource.upload.path>/home/naruto/upload</resource.upload.path>
+                <resource.upload.path>${user.home}/upload</resource.upload.path>
                 <lib.type>dll</lib.type>
                 <monitor.log.path>D:\test.log</monitor.log.path>
-                <output.directory>/home/naruto</output.directory>
+            <!--    <output.directory>/home/naruto</output.directory>-->
             </properties>
         </profile>
         <profile>
