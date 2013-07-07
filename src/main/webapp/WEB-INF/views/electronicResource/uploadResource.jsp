@@ -13,6 +13,15 @@
 		<%--<link style="upload.css" style="text/css" rel="stylesheet"/>--%>
         <link type="text/css" rel="stylesheet" href="css/uploadCom.css" />
         <link href="js/uploadify/uploadify.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            #keyword{
+                overflow: hidden;
+            }
+            #keyword li{
+                float: left;
+                padding: 5px;
+            }
+        </style>
 	</head>
 	<body>
 	<div id="wrapper">
@@ -25,6 +34,7 @@
                   <ul></ul>
               </div>
         </div>
+        <ul id="keyword"></ul>
         <div id="step1">
             <h3>资料上传须知</h3>
             <div id="uploadRemind">
