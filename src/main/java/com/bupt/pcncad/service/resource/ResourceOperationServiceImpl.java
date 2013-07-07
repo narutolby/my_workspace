@@ -43,7 +43,7 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
     private static final int PAGE_SIZE = 13;
 
     @Override
-    public String uploadResource(MultipartFile file,String userId,String...keywords) throws Exception {
+    public File uploadResource(MultipartFile file,String userId,String...keywords) throws Exception {
         if (!file.isEmpty()) {
             Resource resource = new Resource();
             User user = this.userDao.get(userId);
@@ -72,9 +72,10 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
                 directory.mkdirs();
             }
             InputStream from = file.getInputStream();
-            OutputStream to = new FileOutputStream(new File(directory, resourceId + "." + type));
+            File uploadFile = new File(directory, resourceId + "." + type);
+            OutputStream to = new FileOutputStream(uploadFile);
             FileUtil.copy(from, to);
-            return resourceId;
+            return uploadFile;
         } else {
             LoggerUtil.error(this.getClass(), "文件不能为空！");
             throw new RuntimeException("文件内容不能为空");

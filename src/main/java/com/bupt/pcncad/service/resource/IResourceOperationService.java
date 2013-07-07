@@ -7,6 +7,7 @@ import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -19,7 +20,7 @@ import java.util.Map;
  */
 public interface IResourceOperationService {
 
-    public String uploadResource(MultipartFile file,String userId,String... keyword) throws Exception;
+    public File uploadResource(MultipartFile file,String userId,String... keyword) throws Exception;
     /**
      * 社区话题上传,图片
     **/

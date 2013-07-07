@@ -5,6 +5,7 @@ import org.apache.lucene.analysis.Token;
 import org.apache.lucene.analysis.TokenStream;
 import org.pdfbox.pdmodel.PDDocument;
 import org.pdfbox.util.PDFTextStripper;
+import org.springframework.stereotype.Service;
 import org.textmining.text.extraction.WordExtractor;
 
 import java.io.*;
@@ -19,6 +20,7 @@ import java.util.*;
  * Time: 下午3:52
  * To change this template use File | Settings | File Templates.
  */
+@Service
 public class DataTraining {
 
     private static Map<String, Integer> dfMap = new HashMap<String, Integer>();
@@ -72,15 +74,17 @@ public class DataTraining {
             list.add(new MyEntry(key, value));
         }
         Collections.sort(list);
+        String[]rv = new String[35];
         int sum = 0;
         for (MyEntry myEntry : list) {
-            sum++;
-            System.out.println(myEntry.getKey() + " : " + myEntry.getValue());
+            rv[sum] = myEntry.getKey();
             if (sum > 30) {
                 break;
             }
+            sum++;
+            System.out.println(myEntry.getKey() + " : " + myEntry.getValue());
         }
-        return null;
+        return rv;
     }
 
     private static class MyEntry implements Map.Entry<String, Double>, Comparable<MyEntry> {
@@ -249,6 +253,14 @@ public class DataTraining {
         }
 
         return sb.toString();*/
+        return null;
+    }
+    public static File router(String type,String path) throws Exception{
+        if(type.equalsIgnoreCase("doc")){
+            return trainingDataFromWordFile(path);
+        }else if(type.equalsIgnoreCase("pdf")){
+            return trainingDataFromPdfFile(path);
+        }
         return null;
     }
 }
