@@ -517,7 +517,7 @@
                         </connector>
                     </connectors>
                     <contextPath>/</contextPath>
-                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <scanIntervalSeconds>1</scanIntervalSeconds>
                 </configuration>
             </plugin>
         </plugins>
