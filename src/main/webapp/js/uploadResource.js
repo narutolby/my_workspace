@@ -7,7 +7,7 @@
  */
 (function ($, exports) {
     $(function () {
-        $("#Filedata").commonUpload({"width":"157px", "height":"45px", "onUploadSuccess":function (file, data, response) {
+        $("#Filedata").commonUpload({"width":"157px", "height":"45px", "onUploadSuccessTmp":function (file, data, response) {
             var fileName = file.name;
             $("#file-queue ul").append("<li><a href='resourceOperation/download.html?resourceId=" + data + "'>" + fileName + "</a></li>");
             /*$("#title").val(fileName);*/
