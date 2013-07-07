@@ -3,6 +3,7 @@ package com.bupt.pcncad.controller.upload;
 import com.bupt.pcncad.controller.BaseController;
 import com.bupt.pcncad.domain.Resource;
 import com.bupt.pcncad.domain.User;
+import com.bupt.pcncad.service.datatraining.DataTraining;
 import com.bupt.pcncad.service.mail.MailService;
 import com.bupt.pcncad.service.resource.IResourceOperationService;
 import com.bupt.pcncad.service.usesr.IUserService;
@@ -20,6 +21,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.util.Arrays;
 
 /**
  * Created with IntelliJ IDEA.
@@ -39,19 +42,26 @@ public class ResourceOperationController extends BaseController<Resource> {
     private IUserService userService;
 
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
-    @ResponseBody
-    public String upload(@RequestParam("Filedata") MultipartFile file, @RequestParam(Constants.USER_INFO) String userId,@RequestParam("Keyword")String...keyword) throws Exception {
+    public void upload(@RequestParam("Filedata") MultipartFile file,ModelMap modelMap, @RequestParam(Constants.USER_INFO) String userId,@RequestParam("Keyword")String...keyword) throws Exception {
         try {
             if ("".equals(userId) || null == userId) {
-                return Constants.LOGIN;
+                modelMap.put("login",Constants.LOGIN);
+                return ;
             }
             User user = this.userService.getUserByUserId(userId);
             if (user != null) {
                 WebContextThreadLocal.setCurrentUser(user);
             } else {
-                return Constants.LOGIN;
+                modelMap.put("login",Constants.LOGIN);
+                return ;
             }
-            return this.resourceOperationService.uploadResource(file,userId,keyword);
+            File uploadFile = this.resourceOperationService.uploadResource(file,userId,keyword);
+            String type = file.getOriginalFilename().split("\\.")[1];
+            String[] key ={};
+            if(type.equalsIgnoreCase("doc") || type.equalsIgnoreCase("pdf")){
+                  key = DataTraining.extractiongkeyWordsFromInputFile(DataTraining.router(type,uploadFile.getAbsolutePath()));
+            }
+            modelMap.put("keys",key);
         } catch (Exception e) {
             LoggerUtil.error(this.getClass(), e.getMessage());
             throw e;
