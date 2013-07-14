@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/doc
 svn://211.151.57.197
 
@@ -26,17 +26,18 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
-BR.sql
+图书馆方案.docx
 file
 
 
 
 
-2013-06-05T09:30:34.000000Z
-50a3f570db5e9b217d36d11465a0ba3b
-2013-06-11T05:05:18.107145Z
-306
+2012-11-21T13:23:51.000000Z
+dc39f382fc00b61b4509db33669a5c12
+2013-04-17T01:08:06.244982Z
+174
 naruto
+has-props
 
 
 
@@ -57,20 +58,20 @@ naruto
 
 
 
-
-3225724
+244859
 
-BR_local.sql
+知识资源共享平台介绍.docx
 file
 
 
 
 
-2013-06-05T12:09:39.000000Z
-c6ba49cfcaf7182999a270e2bf0ee2c2
+2013-05-27T02:44:17.000000Z
+0cf7a8c5557a305f6b02c91b142a25c3
 2013-06-11T05:05:18.107145Z
 306
 naruto
+has-props
 
 
 
@@ -91,8 +92,41 @@ naruto
 
 
 
+7042
+
+创讯掌上图书馆系统API文档.doc
+file
 
-3975657
+
+
+
+2013-06-04T02:03:54.000000Z
+555c4a6ea04d4554cdbf37d03e2abdb3
+2013-06-11T05:05:18.107145Z
+306
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+591872
 
 BR_new.sql
 file
@@ -128,20 +162,17 @@ naruto
 
 3368436
 
-创讯掌上图书馆系统API文档.doc
+BR_local.sql
 file
 
 
 
 
-2013-06-04T02:03:54.000000Z
-555c4a6ea04d4554cdbf37d03e2abdb3
+2013-06-05T12:09:39.000000Z
+c6ba49cfcaf7182999a270e2bf0ee2c2
 2013-06-11T05:05:18.107145Z
 306
 naruto
-has-props
-
-svn:special svn:externals svn:needs-lock
 
 
 
@@ -160,7 +191,10 @@ svn:special svn:externals svn:needs-lock
 
 
 
-591872
+
+
+
+3975657
 
 北京邮电大学青年科研创新计划专项课题任务书.doc
 file
@@ -175,7 +209,7 @@ df8e806e6504e33fed133800a345a430
 naruto
 has-props
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -196,54 +230,17 @@ svn:special svn:externals svn:needs-lock
 
 801280
 
-图书馆方案.docx
+BR.sql
 file
 
 
 
 
-2012-11-21T13:23:51.000000Z
-dc39f382fc00b61b4509db33669a5c12
-2013-04-17T01:08:06.244982Z
-174
-naruto
-has-props
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-244859
-
-知识资源共享平台介绍.docx
-file
-
-
-
-
-2013-05-27T02:44:17.000000Z
-0cf7a8c5557a305f6b02c91b142a25c3
+2013-06-05T09:30:34.000000Z
+50a3f570db5e9b217d36d11465a0ba3b
 2013-06-11T05:05:18.107145Z
 306
 naruto
-has-props
-
-svn:special svn:externals svn:needs-lock
 
 
 
@@ -262,5 +259,8 @@ svn:special svn:externals svn:needs-lock
 
 
 
-7042
+
+
+
+3225724
 

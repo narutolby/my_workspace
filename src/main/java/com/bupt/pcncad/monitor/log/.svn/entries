@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/monitor/log
 svn://211.151.57.197
 
@@ -25,40 +25,6 @@ naruto
 
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
-
-LogMonitor.java
-file
-
-
-
-
-2012-09-30T08:14:43.000000Z
-3449d589c686187939406d326aaa7156
-2012-09-30T08:12:37.977540Z
-15
-baobao
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2284
 
 LogMonitorWithJnotify.java
 file
@@ -93,4 +59,38 @@ naruto
 
 
 4158
+
+LogMonitor.java
+file
+
+
+
+
+2012-09-30T08:14:43.000000Z
+3449d589c686187939406d326aaa7156
+2012-09-30T08:12:37.977540Z
+15
+baobao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2284
 

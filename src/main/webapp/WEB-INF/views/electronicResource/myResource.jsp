@@ -130,7 +130,6 @@
                             </tr></tbody>
                         </table>
                     </div>
-                    <div class="pagi" id="pagi" style=""><a href="javascript:void(0)" style="margin:0 3px" id="page_prev"><b><span>上一页</span></b></a><a href="javascript:void(0)" style="margin:0 3px" id="page_1"><span style="font-weight: bold; font-size: 12px;">1</span></a><a href="javascript:void(0)" style="margin:0 3px" id="page_2"><b><span>2</span></b></a><a href="javascript:void(0)" style="margin:0 3px" id="page_3"><b><span>3</span></b></a><a href="javascript:void(0)" style="margin:0 3px" id="page_next"><b><span>下一页</span></b></a></div>
 
                 </div></li>
                 <li><div>
@@ -303,10 +302,6 @@
 
                 </div>
                 </div>
-                <div class="pagi" id="pagi" style=""><a href="javascript:void(0)" style="margin:0 3px" id="page_prev"><b><span>上一页</span></b></a><a href="javascript:void(0)" style="margin:0 3px" id="page_1"><span style="font-weight: bold; font-size: 12px;">1</span></a><a href="javascript:void(0)" style="margin:0 3px" id="page_2"><b><span>2</span></b></a><a href="javascript:void(0)" style="margin:0 3px" id="page_3"><b><span>3</span></b></a><a href="javascript:void(0)" style="margin:0 3px" id="page_next"><b><span>下一页</span></b></a></div>
-                </div></li>
-                <li><div>
-
                 </div></li>
             </ul>
             <div id="destination" class="detail_hidden"><img src="img/icon_trash.jpg"/></div>

@@ -1,14 +1,14 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/service
 svn://211.151.57.197
 
 
 
-2013-06-15T02:07:21.384031Z
-315
+2013-07-11T07:40:17.823937Z
+333
 naruto
 
 
@@ -26,7 +26,10 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
-Bulletin
+usesr
+dir
+
+mail
 dir
 
 academy
@@ -38,16 +41,7 @@ dir
 community
 dir
 
-fetch
-dir
-
 index
-dir
-
-invite
-dir
-
-mail
 dir
 
 monitor
@@ -56,9 +50,15 @@ dir
 resource
 dir
 
-topic
+fetch
 dir
 
-usesr
+Bulletin
+dir
+
+invite
+dir
+
+topic
 dir
 

@@ -2,6 +2,7 @@ package com.bupt.pcncad.service.resource;
 
 import com.bupt.pcncad.domain.Resource;
 import com.bupt.pcncad.util.Pager;
+import com.bupt.pcncad.util.ResourcePage;
 import com.bupt.pcncad.util.ResourceSizeUtil;
 import org.hibernate.criterion.DetachedCriteria;
 import org.springframework.web.multipart.MultipartFile;
@@ -53,7 +54,7 @@ public interface IResourceOperationService {
 
     public Map<String,String> getTop4ShareUser() throws Exception;
 
-    public List<ResourceSizeUtil> getAllResource() throws Exception;
+    public ResourcePage<ResourceSizeUtil> getAllResource(int pageNo) throws Exception;
 }
 
 

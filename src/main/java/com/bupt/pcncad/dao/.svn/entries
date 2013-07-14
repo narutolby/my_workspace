@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/dao
 svn://211.151.57.197
 
@@ -26,43 +26,6 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
-DoubanJson
-dir
-
-HibernateGenericDaoImpl.java
-file
-
-
-
-
-2013-05-23T08:59:14.000000Z
-7f1794f7f761e5d475069b46b274241c
-2013-05-23T09:08:15.610713Z
-272
-naruto
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7627
-
 IHibernateGenericDao.java
 file
 
@@ -76,7 +39,7 @@ file
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -96,6 +59,21 @@ svn:special svn:externals svn:needs-lock
 
 
 3854
+
+tag
+dir
+
+bulletin
+dir
+
+invite
+dir
+
+topic
+dir
+
+user
+dir
 
 Test.java
 file
@@ -131,30 +109,52 @@ naruto
 
 782
 
+DoubanJson
+dir
+
 academy
 dir
 
-bulletin
-dir
+HibernateGenericDaoImpl.java
+file
+
+
+
+
+2013-05-23T08:59:14.000000Z
+7f1794f7f761e5d475069b46b274241c
+2013-05-23T09:08:15.610713Z
+272
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7627
 
 community
-dir
-
-fetch
-dir
-
-invite
 dir
 
 resource
 dir
 
-tag
-dir
-
-topic
-dir
-
-user
+fetch
 dir
 

@@ -54,6 +54,7 @@ public class CommunityController {
         }
 
         List<Community> communityList = this.communityService.getAllActivityCommunityByCurrentUser();
+        List<Community> allcommunities = this.communityService.getAllCommunity();
 
         List<Community> hottestCommunities = this.communityService.getHottestCommunities();
         modelMap.put("communities", communityList);
@@ -61,6 +62,7 @@ public class CommunityController {
         int pageCount = size/4+(size%4==0?0:1);
         modelMap.put("pageCount",pageCount);
         modelMap.put("hottestCommunities", hottestCommunities);
+        modelMap.put("allcommunities",allcommunities);
         return COMMUNITYROOTPATH + "/myCommunity";
     }
 

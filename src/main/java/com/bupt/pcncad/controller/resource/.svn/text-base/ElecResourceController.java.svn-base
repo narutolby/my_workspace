@@ -8,6 +8,7 @@ import com.bupt.pcncad.service.comment.IResourceCommentService;
 import com.bupt.pcncad.service.resource.IResourceOperationService;
 import com.bupt.pcncad.service.usesr.IUserService;
 import com.bupt.pcncad.util.Pager;
+import com.bupt.pcncad.util.ResourcePage;
 import com.bupt.pcncad.util.ResourceSizeUtil;
 import com.bupt.pcncad.webContext.WebContextThreadLocal;
 import org.hibernate.criterion.DetachedCriteria;
@@ -291,9 +292,20 @@ public class ElecResourceController extends BaseController<Resource> {
     }
     @RequestMapping("/all")
     public String getAllResource(ModelMap model) throws Exception{
-        List<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource();
+        ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(1);
         model.put("allResource",resources);
+        //return ELECRESRCROOTPATH + "/FlexPaperViewer";
         return ELECRESRCROOTPATH + "/allResource";
     }
-
+    @RequestMapping("/resourcePage")
+    public void getResourcePage(@RequestParam(value = "pageNo")int pageNo,ModelMap modelMap) throws Exception{
+        ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(pageNo);
+        modelMap.put("allResource",resources);
+    }
+    @RequestMapping("/preview")
+    public String getPreview() throws Exception{
+        //ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(pageNo);
+        //modelMap.put("allResource",resources);
+        return ELECRESRCROOTPATH + "/FlexPaperViewer";
+    }
 }

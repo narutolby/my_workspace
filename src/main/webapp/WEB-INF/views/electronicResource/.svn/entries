@@ -1,14 +1,14 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/webapp/WEB-INF/views/electronicResource
 svn://211.151.57.197
 
 
 
-2013-06-25T13:09:09.119075Z
-318
+2013-07-11T07:47:40.776170Z
+338
 naruto
 
 
@@ -26,20 +26,53 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
-allResource.jsp
+myResource.jsp
+file
+
+
+
+
+2013-07-14T02:54:45.108465Z
+9ff15364eb133e4fb18cd342a69b1ef0
+2013-07-11T02:28:12.046290Z
+327
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19059
+
+tagAllElectronicResourceView.jsp
 file
 
 
 
 
 2013-06-26T01:37:55.000000Z
-425ed7a7766a92b017a02fdda19f4440
-2013-06-15T02:08:57.838987Z
-317
+a9f53f7309cdc9d8fbf621f4122b87f6
+2013-06-25T13:09:09.119075Z
+318
 naruto
 
 
-svn:special svn:externals svn:needs-lock
 
 
 
@@ -58,11 +91,46 @@ svn:special svn:externals svn:needs-lock
 
 
 
-3406
+
+12921
+
+allResource.jsp
+file
+
+
+
+
+2013-07-14T02:54:45.108465Z
+a5663e742b9423ff7353a25dfde18dc4
+2013-07-11T07:38:36.008213Z
+329
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7031
 
 electronicResourceDetail.jsp
 file
-320
+
 
 
 
@@ -93,74 +161,6 @@ naruto
 
 
 14740
-
-myResource.jsp
-file
-319
-
-
-
-2013-06-26T03:19:55.000000Z
-b49a340536df3850633f4743120ae72d
-2013-06-26T02:23:14.434739Z
-319
-naruto
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20231
-
-resourceFriendRecommend.jsp
-file
-
-
-
-
-2012-09-26T05:02:04.000000Z
-8e683d3e068eefeecc19720d881bb357
-2012-09-24T11:34:26.619269Z
-2
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12483
 
 resourceSystemRecommend.jsp
 file
@@ -196,20 +196,19 @@ naruto
 
 5400
 
-tagAllElectronicResourceView.jsp
+FlexPaperViewer.jsp
 file
 
 
 
 
-2013-06-26T01:37:55.000000Z
-a9f53f7309cdc9d8fbf621f4122b87f6
-2013-06-25T13:09:09.119075Z
-318
+2013-07-14T02:54:45.108465Z
+548e83c1c31fc8c72631d46fe65d7bc5
+2013-07-11T07:47:40.776170Z
+338
 naruto
 
 
-svn:special svn:externals svn:needs-lock
 
 
 
@@ -228,7 +227,42 @@ svn:special svn:externals svn:needs-lock
 
 
 
-12921
+
+1843
+
+resourceFriendRecommend.jsp
+file
+
+
+
+
+2012-09-26T05:02:04.000000Z
+8e683d3e068eefeecc19720d881bb357
+2012-09-24T11:34:26.619269Z
+2
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12483
 
 uploadResource.jsp
 file

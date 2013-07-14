@@ -33,4 +33,5 @@ public interface ICommunityService {
 
     public List<Invite> getUserByCourses(String communityId) throws Exception;
 
+    public List<Community> getAllCommunity() throws Exception;
 }

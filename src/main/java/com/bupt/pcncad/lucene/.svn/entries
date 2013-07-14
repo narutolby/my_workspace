@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/lucene
 svn://211.151.57.197
 
@@ -12,7 +12,7 @@ svn://211.151.57.197
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,6 +32,74 @@ svn:special svn:externals svn:needs-lock
 
 
 0
+
+main.java
+file
+
+
+
+
+2013-01-24T09:05:56.000000Z
+7eeb93e779eed76d877321678981c275
+2013-04-23T01:10:33.927870Z
+180
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+665
+
+Search.java
+file
+
+
+
+
+2013-03-03T12:39:33.000000Z
+b339d9e8553ca3ef5c6b3a81fe061892
+2013-04-23T01:10:33.927870Z
+180
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1955
 
 FilePreprocessor.java
 file
@@ -100,72 +168,4 @@ naruto
 
 
 4099
-
-Search.java
-file
-
-
-
-
-2013-03-03T12:39:33.000000Z
-b339d9e8553ca3ef5c6b3a81fe061892
-2013-04-23T01:10:33.927870Z
-180
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1955
-
-main.java
-file
-
-
-
-
-2013-01-24T09:05:56.000000Z
-7eeb93e779eed76d877321678981c275
-2013-04-23T01:10:33.927870Z
-180
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-665
 

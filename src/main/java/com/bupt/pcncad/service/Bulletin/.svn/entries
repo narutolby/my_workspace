@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/service/Bulletin
 svn://211.151.57.197
 
@@ -12,7 +12,7 @@ svn://211.151.57.197
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,40 +32,6 @@ svn:special svn:externals svn:needs-lock
 
 
 0
-
-BulletinServiceImpl.java
-file
-
-
-
-
-2012-12-18T05:36:02.000000Z
-c383583a39a8ab603bc155ecf9d190b8
-2012-12-18T06:24:50.093325Z
-120
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1166
 
 IBulletinService.java
 file
@@ -100,4 +66,38 @@ naruto
 
 
 349
+
+BulletinServiceImpl.java
+file
+
+
+
+
+2012-12-18T05:36:02.000000Z
+c383583a39a8ab603bc155ecf9d190b8
+2012-12-18T06:24:50.093325Z
+120
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1166
 

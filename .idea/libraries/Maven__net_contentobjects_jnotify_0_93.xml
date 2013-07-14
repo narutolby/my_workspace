@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: net.contentobjects:jnotify:0.93">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jnotify/jnotify-0.93.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/jnotify/jnotify-0.93-src.zip!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/webapp/WEB-INF/views/monitorViews
 svn://211.151.57.197
 
@@ -25,6 +25,9 @@ naruto
 
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
+
+log
+dir
 
 index.jsp
 file
@@ -59,9 +62,6 @@ baobao
 
 
 2883
-
-log
-dir
 
 snippet
 dir

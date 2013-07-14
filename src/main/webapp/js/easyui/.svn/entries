@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/webapp/js/easyui
 svn://211.151.57.197
 
@@ -60,6 +60,9 @@ naruto
 
 6137
 
+themes
+dir
+
 jquery.easyui.min.js
 file
 
@@ -73,7 +76,7 @@ file
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -98,8 +101,5 @@ locale
 dir
 
 plugins
-dir
-
-themes
 dir
 

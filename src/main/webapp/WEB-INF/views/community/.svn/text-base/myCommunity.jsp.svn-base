@@ -11,6 +11,12 @@
 <head>
     <%@include file="../snippet/meta.jsp" %>
     <link href="css/resrc_rec_sys.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        ul,li{margin:0;padding:0}
+        #scrollDiv{height:100px;min-height:25px;line-height:25px;border:#ccc 1px solid;overflow:hidden}
+        #scrollDiv li{height:25px;padding-left:10px;}
+    </style>
+    <script src="http://img.jb51.net/jslib/jquery/jquery14.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -28,7 +34,7 @@
         </div>
         <div id="commu-article">
             <div id="articleL">
-                <div id="articleL-content" style="overflow:hidden">
+                <div id="articleL-content" style="overflow:hidden;position: relative;">
                     <div id="commu-dynamics" class="folder folder_selected"><p class="hot-commu-icon">社区动态：</p></div>
                     <input type="hidden" value="${pageCount}" id="pageCount"/>
 
@@ -62,6 +68,7 @@
                             </li>
                             <c:if test="${i.index%4==3}"></ul></c:if>
                         </c:forEach>
+
                     </div>
                     <c:if test="${pageCount!=0 && pageCount!=1}">
                         <div id="slide_bar">
@@ -71,7 +78,17 @@
                                                               width="33px" id="arrowR"/></a>
                         </div>
                     </c:if>
+                    <div id="scrollDiv" style="position:absolute;bottom: 20px;width: 100%">
+                        <ul >
+                            <c:forEach items="${allcommunities}" var="community">
+                                <li><a href="community/community_detail.html?c_id=${community.id}">${community.name}</a></li>
+                            </c:forEach>
+                        </ul>
+
+                    </div>
+                    <div style="position:absolute;bottom:0px;width: 100%"><span id="btn1" style="color: #2772BE">向前</span>&nbsp;&nbsp;<span id="btn2" style="color: #2772BE;">向后</span></div>
                 </div>
+
             </div>
             <div id="articleR">
                 <div id="articleR-content">
@@ -101,7 +118,7 @@
     <%@include file="../snippet/footer.jsp" %>
 </div>
 <script type="text/javascript">
-    $L.wait().script("js/myCommunity.js");
+    $L.wait().script("js/myCommunity.js").script("js/scroll.js");
 </script>
 </body>
 </html>

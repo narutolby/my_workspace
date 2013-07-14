@@ -1,0 +1,2169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/lucene/IndexProcessor.java" line="11" mnemonic="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="00de830c-8018-4a3e-9b9e-3d77ded292c2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BR.iml" afterPath="$PROJECT_DIR$/BR.iml" />
+    </list>
+    <list id="77028232-d1bc-4401-99e3-f3531c9a7e5f" name="ignore changelist" comment="ignore changelist" />
+    <ignored path="BR.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="true" />
+  <component name="Commander">
+    <leftPanel class="com.bupt.pcncad.monitor.AbstractMonitor" />
+    <rightPanel />
+    <splitter proportion="0.596" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BR$BookInfoCrawler.coverage" NAME="BookInfoCrawler Coverage Results" MODIFIED="1367052532949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bupt.pcncad.timer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BR$TestDao_test1.coverage" NAME="TestDao.test1 Coverage Results" MODIFIED="1354502289217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bupt.pcncad.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BR$TestDao_insertTeacher.coverage" NAME="TestDao.insertTeacher Coverage Results" MODIFIED="1354760666267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bupt.pcncad.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BR$BookRegularUpdateTimerTask.coverage" NAME="BookRegularUpdateTimerTask Coverage Results" MODIFIED="1366964614940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bupt.pcncad.timer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BR$MutiThread.coverage" NAME="MutiThread Coverage Results" MODIFIED="1354502208683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bupt.pcncad.dao.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BR" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DataTraining.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="12" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.9030023">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myResource.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/myResource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="26" selection-start="6867" selection-end="6867" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/snippet/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="BR" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/data/user/student.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/study/TestQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/lucene/IndexProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/base.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/resrc_rec_sys.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/myResource.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/myResource.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookInfoCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/dao/HibernateGenericDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/poi/org/apache/poi/hwpf/sprm/TableSprmCompressor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/poi/org/apache/poi/hwpf/AllHWPFTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/org/apache/poi/hwpf/sprm/TableSprmCompressor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/poi/hwpf/sprm/TableSprmCompressor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/ReadFileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/dev/apache-maven-3.0.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="keepSourceFolders" value="false" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="BR" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="BR" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1365" />
+    <option name="y" value="-5" />
+    <option name="width" value="1282" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>J2ME Plugin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-missing-from-artifact(artifact:BR:war exploded,WEB-INF/classes/module-output)" />
+      <problem id="library-missing-from-artifact(artifact:BR:war,WEB-INF/classes/module-output)" />
+      <problem id="library-missing-from-artifact(artifact:BR:war,WEB-INF/classes/module-output)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pcncad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pcncad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pcncad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datatraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="Database.TableEditor.Splitter" value="0.8859649" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="project.structure.side.proportion" value="0.117508814" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/apache/poi" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/bupt/pcncad" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/poi" />
+      <recent name="$PROJECT_DIR$/tmp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/template" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DataTraining">
+    <configuration default="false" name="TestAtom" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.pattern.TestAtom" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BR" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataTraining" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.service.datatraining.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.service.datatraining.DataTraining" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BR" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDao.insertStudent" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BR" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bupt.pcncad.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.dao.TestDao" />
+      <option name="METHOD_NAME" value="insertStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestQueue" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.study.TestQueue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BR" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookInfoCrawler" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.timer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.timer.BookInfoCrawler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BR" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BR:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BR_3" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="32946" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.dao.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BR" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TreadTest" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bupt.pcncad.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bupt.pcncad.pattern.TreadTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BR" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat6" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TreadTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestAtom" />
+      <item index="5" class="java.lang.String" itemvalue="Application.DataTraining" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestDao.insertStudent" />
+      <item index="7" class="java.lang.String" itemvalue="Application.TestQueue" />
+      <item index="8" class="java.lang.String" itemvalue="Application.BookInfoCrawler" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <option name="associatedChangelistId" value="77028232-d1bc-4401-99e3-f3531c9a7e5f" />
+      <changelist id="00de830c-8018-4a3e-9b9e-3d77ded292c2" name="Default" comment="" />
+      <changelist id="77028232-d1bc-4401-99e3-f3531c9a7e5f" name="ignore changelist" comment="" />
+      <created>1350306325872</created>
+      <updated>1350306325872</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1350440540121</created>
+      <updated>1350440540121</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1350440587101</created>
+      <updated>1350440587101</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1350440663101</created>
+      <updated>1350440663101</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1350475996101</created>
+      <updated>1350475996101</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1350476656100</created>
+      <updated>1350476656100</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1350521788136</created>
+      <updated>1350521788136</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1350649408122</created>
+      <updated>1350649408122</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1350656107100</created>
+      <updated>1350656107100</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1350738560161</created>
+      <updated>1350738560161</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1350744359101</created>
+      <updated>1350744359101</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1350744410100</created>
+      <updated>1350744410100</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1350802788276</created>
+      <updated>1350802788276</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1351046703127</created>
+      <updated>1351046703127</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1351049636101</created>
+      <updated>1351049636101</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1351082338147</created>
+      <updated>1351082338147</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1351215230163</created>
+      <updated>1351215230163</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1351215520101</created>
+      <updated>1351215520101</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1351224923101</created>
+      <updated>1351224923101</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1351240055171</created>
+      <updated>1351240055171</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1351243442101</created>
+      <updated>1351243442101</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1351393824158</created>
+      <updated>1351393824159</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1351393842793</created>
+      <updated>1351393842793</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1351394064116</created>
+      <updated>1351394064116</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1351436049173</created>
+      <updated>1351436049173</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1351436075101</created>
+      <updated>1351436075101</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1351514067132</created>
+      <updated>1351514067132</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1351522221101</created>
+      <updated>1351522221101</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1351608490127</created>
+      <updated>1351608490127</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1351654484226</created>
+      <updated>1351654484226</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1351762586121</created>
+      <updated>1351762586121</updated>
+    </task>
+    <task id="LOCAL-00031">
+      <created>1351762612101</created>
+      <updated>1351762612101</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1351781081101</created>
+      <updated>1351781081101</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1351781136115</created>
+      <updated>1351781136115</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1351781167559</created>
+      <updated>1351781167559</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1351781196551</created>
+      <updated>1351781196551</updated>
+    </task>
+    <task id="LOCAL-00037">
+      <created>1351781296101</created>
+      <updated>1351781296101</updated>
+    </task>
+    <task id="LOCAL-00038">
+      <created>1351868377223</created>
+      <updated>1351868377223</updated>
+    </task>
+    <task id="LOCAL-00039">
+      <created>1351953724163</created>
+      <updated>1351953724163</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1352042061181</created>
+      <updated>1352042061181</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1352084914226</created>
+      <updated>1352084914226</updated>
+    </task>
+    <task id="LOCAL-00042">
+      <created>1352104186101</created>
+      <updated>1352104186101</updated>
+    </task>
+    <task id="LOCAL-00043">
+      <created>1352126279101</created>
+      <updated>1352126279101</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1352167331238</created>
+      <updated>1352167331238</updated>
+    </task>
+    <task id="LOCAL-00045">
+      <created>1352169677101</created>
+      <updated>1352169677101</updated>
+    </task>
+    <task id="LOCAL-00046">
+      <created>1352189756236</created>
+      <updated>1352189756236</updated>
+    </task>
+    <task id="LOCAL-00047">
+      <created>1352257861203</created>
+      <updated>1352257861203</updated>
+    </task>
+    <task id="LOCAL-00048">
+      <created>1352258540101</created>
+      <updated>1352258540101</updated>
+    </task>
+    <task id="LOCAL-00049">
+      <created>1352471054287</created>
+      <updated>1352471054287</updated>
+    </task>
+    <task id="LOCAL-00050">
+      <created>1352471068101</created>
+      <updated>1352471068101</updated>
+    </task>
+    <task id="LOCAL-00051">
+      <created>1352732565226</created>
+      <updated>1352732565226</updated>
+    </task>
+    <task id="LOCAL-00052">
+      <created>1352777293188</created>
+      <updated>1352777293188</updated>
+    </task>
+    <task id="LOCAL-00053">
+      <created>1352777319101</created>
+      <updated>1352777319101</updated>
+    </task>
+    <task id="LOCAL-00054">
+      <created>1352791020101</created>
+      <updated>1352791020102</updated>
+    </task>
+    <task id="LOCAL-00055">
+      <created>1352793993127</created>
+      <updated>1352793993128</updated>
+    </task>
+    <task id="LOCAL-00056">
+      <created>1352794353100</created>
+      <updated>1352794353101</updated>
+    </task>
+    <task id="LOCAL-00057">
+      <created>1352818531224</created>
+      <updated>1352818531225</updated>
+    </task>
+    <task id="LOCAL-00058">
+      <created>1352859594170</created>
+      <updated>1352859594170</updated>
+    </task>
+    <task id="LOCAL-00059">
+      <created>1352905216189</created>
+      <updated>1352905216189</updated>
+    </task>
+    <task id="LOCAL-00060">
+      <created>1352948399208</created>
+      <updated>1352948399209</updated>
+    </task>
+    <task id="LOCAL-00061">
+      <created>1352948830101</created>
+      <updated>1352948830101</updated>
+    </task>
+    <task id="LOCAL-00062">
+      <created>1352950305111</created>
+      <updated>1352950305111</updated>
+    </task>
+    <task id="LOCAL-00063">
+      <created>1353036127197</created>
+      <updated>1353036127197</updated>
+    </task>
+    <task id="LOCAL-00064">
+      <created>1353036168101</created>
+      <updated>1353036168101</updated>
+    </task>
+    <task id="LOCAL-00065">
+      <created>1353312151242</created>
+      <updated>1353312151242</updated>
+    </task>
+    <task id="LOCAL-00066">
+      <created>1353335653260</created>
+      <updated>1353335653260</updated>
+    </task>
+    <task id="LOCAL-00067">
+      <created>1353377793152</created>
+      <updated>1353377793152</updated>
+    </task>
+    <task id="LOCAL-00068">
+      <created>1353379343111</created>
+      <updated>1353379343111</updated>
+    </task>
+    <task id="LOCAL-00069">
+      <created>1353379376100</created>
+      <updated>1353379376101</updated>
+    </task>
+    <task id="LOCAL-00070">
+      <created>1353509498160</created>
+      <updated>1353509498160</updated>
+    </task>
+    <task id="LOCAL-00071">
+      <created>1353682402172</created>
+      <updated>1353682402173</updated>
+    </task>
+    <task id="LOCAL-00072">
+      <created>1353919533207</created>
+      <updated>1353919533208</updated>
+    </task>
+    <task id="LOCAL-00073">
+      <created>1353919553101</created>
+      <updated>1353919553101</updated>
+    </task>
+    <task id="LOCAL-00074">
+      <created>1353934589102</created>
+      <updated>1353934589102</updated>
+    </task>
+    <task id="LOCAL-00075">
+      <created>1353983270212</created>
+      <updated>1353983270212</updated>
+    </task>
+    <task id="LOCAL-00076">
+      <created>1355478298179</created>
+      <updated>1355478298179</updated>
+    </task>
+    <task id="LOCAL-00077">
+      <created>1355478355102</created>
+      <updated>1355478355102</updated>
+    </task>
+    <task id="LOCAL-00078">
+      <created>1355714169179</created>
+      <updated>1355714169179</updated>
+    </task>
+    <task id="LOCAL-00079">
+      <created>1355750836111</created>
+      <updated>1355750836111</updated>
+    </task>
+    <task id="LOCAL-00080">
+      <created>1355798384206</created>
+      <updated>1355798384206</updated>
+    </task>
+    <task id="LOCAL-00081">
+      <created>1355801409166</created>
+      <updated>1355801409167</updated>
+    </task>
+    <task id="LOCAL-00082">
+      <created>1355808034102</created>
+      <updated>1355808034102</updated>
+    </task>
+    <task id="LOCAL-00083">
+      <created>1355813416163</created>
+      <updated>1355813416164</updated>
+    </task>
+    <task id="LOCAL-00084">
+      <created>1355819457102</created>
+      <updated>1355819457103</updated>
+    </task>
+    <task id="LOCAL-00085">
+      <created>1357796749223</created>
+      <updated>1357796749223</updated>
+    </task>
+    <task id="LOCAL-00086">
+      <created>1357796764101</created>
+      <updated>1357796764101</updated>
+    </task>
+    <task id="LOCAL-00087">
+      <created>1358216854197</created>
+      <updated>1358216854197</updated>
+    </task>
+    <task id="LOCAL-00088">
+      <created>1361523377132</created>
+      <updated>1361523377133</updated>
+    </task>
+    <task id="LOCAL-00089">
+      <created>1361523384101</created>
+      <updated>1361523384102</updated>
+    </task>
+    <task id="LOCAL-00090">
+      <created>1361523439101</created>
+      <updated>1361523439101</updated>
+    </task>
+    <task id="LOCAL-00091">
+      <created>1361523457101</created>
+      <updated>1361523457101</updated>
+    </task>
+    <task id="LOCAL-00092">
+      <created>1362042585115</created>
+      <updated>1362042585116</updated>
+    </task>
+    <task id="LOCAL-00093">
+      <created>1362058973142</created>
+      <updated>1362058973142</updated>
+    </task>
+    <task id="LOCAL-00094">
+      <created>1362137159224</created>
+      <updated>1362137159225</updated>
+    </task>
+    <task id="LOCAL-00095">
+      <created>1363164439123</created>
+      <updated>1363164439124</updated>
+    </task>
+    <task id="LOCAL-00096">
+      <created>1363617789239</created>
+      <updated>1363617789239</updated>
+    </task>
+    <task id="LOCAL-00097">
+      <created>1363617801187</created>
+      <updated>1363617801187</updated>
+    </task>
+    <task id="LOCAL-00098">
+      <created>1363617825101</created>
+      <updated>1363617825101</updated>
+    </task>
+    <task id="LOCAL-00099">
+      <created>1364133739212</created>
+      <updated>1364133739212</updated>
+    </task>
+    <task id="LOCAL-00100">
+      <created>1364133759150</created>
+      <updated>1364133759151</updated>
+    </task>
+    <task id="LOCAL-00101">
+      <created>1365503189287</created>
+      <updated>1365503189288</updated>
+    </task>
+    <task id="LOCAL-00102">
+      <created>1366163682169</created>
+      <updated>1366163682169</updated>
+    </task>
+    <task id="LOCAL-00103">
+      <created>1366163697102</created>
+      <updated>1366163697102</updated>
+    </task>
+    <task id="LOCAL-00104">
+      <created>1366163706102</created>
+      <updated>1366163706102</updated>
+    </task>
+    <task id="LOCAL-00105">
+      <created>1366163717101</created>
+      <updated>1366163717101</updated>
+    </task>
+    <task id="LOCAL-00106">
+      <created>1366366359121</created>
+      <updated>1366366359121</updated>
+    </task>
+    <task id="LOCAL-00107">
+      <created>1366366367101</created>
+      <updated>1366366367101</updated>
+    </task>
+    <task id="LOCAL-00108">
+      <created>1366682281174</created>
+      <updated>1366682281174</updated>
+    </task>
+    <task id="LOCAL-00109">
+      <created>1366682308101</created>
+      <updated>1366682308101</updated>
+    </task>
+    <task id="LOCAL-00110">
+      <created>1366682319102</created>
+      <updated>1366682319102</updated>
+    </task>
+    <task id="LOCAL-00111">
+      <created>1366682330101</created>
+      <updated>1366682330101</updated>
+    </task>
+    <task id="LOCAL-00112">
+      <created>1367033317202</created>
+      <updated>1367033317202</updated>
+    </task>
+    <task id="LOCAL-00113">
+      <created>1367033330101</created>
+      <updated>1367033330101</updated>
+    </task>
+    <task id="LOCAL-00114">
+      <created>1367033340240</created>
+      <updated>1367033340240</updated>
+    </task>
+    <task id="LOCAL-00115">
+      <created>1367033360102</created>
+      <updated>1367033360102</updated>
+    </task>
+    <task id="LOCAL-00116">
+      <created>1367033368101</created>
+      <updated>1367033368101</updated>
+    </task>
+    <task id="LOCAL-00117">
+      <created>1367033376101</created>
+      <updated>1367033376101</updated>
+    </task>
+    <task id="LOCAL-00118">
+      <created>1367033382101</created>
+      <updated>1367033382102</updated>
+    </task>
+    <task id="LOCAL-00119">
+      <created>1367033930101</created>
+      <updated>1367033930101</updated>
+    </task>
+    <task id="LOCAL-00120">
+      <created>1367226987148</created>
+      <updated>1367226987148</updated>
+    </task>
+    <task id="LOCAL-00121">
+      <created>1367226999108</created>
+      <updated>1367226999108</updated>
+    </task>
+    <task id="LOCAL-00122">
+      <created>1367227013100</created>
+      <updated>1367227013100</updated>
+    </task>
+    <task id="LOCAL-00123">
+      <created>1367227021100</created>
+      <updated>1367227021100</updated>
+    </task>
+    <task id="LOCAL-00124">
+      <created>1367234508101</created>
+      <updated>1367234508101</updated>
+    </task>
+    <task id="LOCAL-00125">
+      <created>1367234687101</created>
+      <updated>1367234687101</updated>
+    </task>
+    <task id="LOCAL-00126">
+      <created>1367239980101</created>
+      <updated>1367239980101</updated>
+    </task>
+    <task id="LOCAL-00127">
+      <created>1367309842257</created>
+      <updated>1367309842257</updated>
+    </task>
+    <task id="LOCAL-00128">
+      <created>1367309852101</created>
+      <updated>1367309852102</updated>
+    </task>
+    <task id="LOCAL-00129">
+      <created>1367309861101</created>
+      <updated>1367309861102</updated>
+    </task>
+    <task id="LOCAL-00130">
+      <created>1367309870101</created>
+      <updated>1367309870101</updated>
+    </task>
+    <task id="LOCAL-00131">
+      <created>1367310338101</created>
+      <updated>1367310338102</updated>
+    </task>
+    <task id="LOCAL-00132">
+      <created>1367312625101</created>
+      <updated>1367312625102</updated>
+    </task>
+    <task id="LOCAL-00133">
+      <created>1367312633101</created>
+      <updated>1367312633102</updated>
+    </task>
+    <task id="LOCAL-00134">
+      <created>1367389191139</created>
+      <updated>1367389191139</updated>
+    </task>
+    <task id="LOCAL-00135">
+      <created>1367394391101</created>
+      <updated>1367394391102</updated>
+    </task>
+    <task id="LOCAL-00136">
+      <created>1367395239115</created>
+      <updated>1367395239116</updated>
+    </task>
+    <task id="LOCAL-00137">
+      <created>1367462010196</created>
+      <updated>1367462010197</updated>
+    </task>
+    <task id="LOCAL-00138">
+      <created>1367462022102</created>
+      <updated>1367462022102</updated>
+    </task>
+    <task id="LOCAL-00139">
+      <created>1367462072113</created>
+      <updated>1367462072114</updated>
+    </task>
+    <task id="LOCAL-00140">
+      <created>1367462082101</created>
+      <updated>1367462082101</updated>
+    </task>
+    <task id="LOCAL-00141">
+      <created>1367484289101</created>
+      <updated>1367484289102</updated>
+    </task>
+    <task id="LOCAL-00142">
+      <created>1367484330101</created>
+      <updated>1367484330102</updated>
+    </task>
+    <task id="LOCAL-00143">
+      <created>1367824776157</created>
+      <updated>1367824776157</updated>
+    </task>
+    <task id="LOCAL-00144">
+      <created>1367824789101</created>
+      <updated>1367824789102</updated>
+    </task>
+    <task id="LOCAL-00145">
+      <created>1367842074183</created>
+      <updated>1367842074184</updated>
+    </task>
+    <task id="LOCAL-00146">
+      <created>1367851468101</created>
+      <updated>1367851468101</updated>
+    </task>
+    <task id="LOCAL-00147">
+      <created>1367851477101</created>
+      <updated>1367851477101</updated>
+    </task>
+    <task id="LOCAL-00148">
+      <created>1367851485101</created>
+      <updated>1367851485102</updated>
+    </task>
+    <task id="LOCAL-00149">
+      <created>1367851656101</created>
+      <updated>1367851656101</updated>
+    </task>
+    <task id="LOCAL-00150">
+      <created>1367851713107</created>
+      <updated>1367851713107</updated>
+    </task>
+    <task id="LOCAL-00151">
+      <created>1367892791201</created>
+      <updated>1367892791202</updated>
+    </task>
+    <task id="LOCAL-00152">
+      <created>1367892800101</created>
+      <updated>1367892800102</updated>
+    </task>
+    <task id="LOCAL-00153">
+      <created>1367898488102</created>
+      <updated>1367898488102</updated>
+    </task>
+    <task id="LOCAL-00154">
+      <created>1367898500202</created>
+      <updated>1367898500202</updated>
+    </task>
+    <task id="LOCAL-00155">
+      <created>1367911152101</created>
+      <updated>1367911152102</updated>
+    </task>
+    <task id="LOCAL-00156">
+      <created>1367935159198</created>
+      <updated>1367935159199</updated>
+    </task>
+    <task id="LOCAL-00157">
+      <created>1369303309103</created>
+      <updated>1369303309103</updated>
+    </task>
+    <task id="LOCAL-00158">
+      <created>1369303315101</created>
+      <updated>1369303315102</updated>
+    </task>
+    <task id="LOCAL-00159">
+      <created>1369303322101</created>
+      <updated>1369303322102</updated>
+    </task>
+    <task id="LOCAL-00160">
+      <created>1369303332105</created>
+      <updated>1369303332105</updated>
+    </task>
+    <task id="LOCAL-00161">
+      <created>1369303345102</created>
+      <updated>1369303345102</updated>
+    </task>
+    <task id="LOCAL-00162">
+      <created>1369303356101</created>
+      <updated>1369303356102</updated>
+    </task>
+    <task id="LOCAL-00163">
+      <created>1369303368101</created>
+      <updated>1369303368103</updated>
+    </task>
+    <task id="LOCAL-00164">
+      <created>1369303948127</created>
+      <updated>1369303948128</updated>
+    </task>
+    <task id="LOCAL-00165">
+      <created>1369303957101</created>
+      <updated>1369303957102</updated>
+    </task>
+    <task id="LOCAL-00166">
+      <created>1369644991244</created>
+      <updated>1369644991246</updated>
+    </task>
+    <task id="LOCAL-00167">
+      <created>1369645001101</created>
+      <updated>1369645001102</updated>
+    </task>
+    <task id="LOCAL-00168">
+      <created>1369645080101</created>
+      <updated>1369645080102</updated>
+    </task>
+    <task id="LOCAL-00169">
+      <created>1369710876247</created>
+      <updated>1369710876248</updated>
+    </task>
+    <task id="LOCAL-00170">
+      <created>1369710890167</created>
+      <updated>1369710890168</updated>
+    </task>
+    <task id="LOCAL-00171">
+      <created>1369725298101</created>
+      <updated>1369725298102</updated>
+    </task>
+    <task id="LOCAL-00172">
+      <created>1370352423183</created>
+      <updated>1370352423184</updated>
+    </task>
+    <task id="LOCAL-00173">
+      <created>1370352439101</created>
+      <updated>1370352439101</updated>
+    </task>
+    <task id="LOCAL-00174">
+      <created>1370785920101</created>
+      <updated>1370785920102</updated>
+    </task>
+    <task id="LOCAL-00175">
+      <created>1370930378197</created>
+      <updated>1370930378198</updated>
+    </task>
+    <task id="LOCAL-00176">
+      <created>1370930390102</created>
+      <updated>1370930390103</updated>
+    </task>
+    <task id="LOCAL-00177">
+      <created>1370930414116</created>
+      <updated>1370930414117</updated>
+    </task>
+    <task id="LOCAL-00178">
+      <created>1370930423101</created>
+      <updated>1370930423102</updated>
+    </task>
+    <task id="LOCAL-00179">
+      <created>1370930472101</created>
+      <updated>1370930472102</updated>
+    </task>
+    <task id="LOCAL-00180">
+      <created>1370930480100</created>
+      <updated>1370930480101</updated>
+    </task>
+    <task id="LOCAL-00181">
+      <created>1370930533100</created>
+      <updated>1370930533101</updated>
+    </task>
+    <task id="LOCAL-00182">
+      <created>1370930551101</created>
+      <updated>1370930551101</updated>
+    </task>
+    <task id="LOCAL-00183">
+      <created>1370930566101</created>
+      <updated>1370930566102</updated>
+    </task>
+    <task id="LOCAL-00184">
+      <created>1372216990121</created>
+      <updated>1372216990122</updated>
+    </task>
+    <task id="LOCAL-00185">
+      <created>1372216999100</created>
+      <updated>1372216999101</updated>
+    </task>
+    <task id="LOCAL-00186">
+      <created>1372217007101</created>
+      <updated>1372217007102</updated>
+    </task>
+    <task id="LOCAL-00187">
+      <created>1372217018120</created>
+      <updated>1372217018121</updated>
+    </task>
+    <task id="LOCAL-00188">
+      <created>1372217031100</created>
+      <updated>1372217031101</updated>
+    </task>
+    <task id="LOCAL-00189">
+      <created>1372217054101</created>
+      <updated>1372217054102</updated>
+    </task>
+    <task id="LOCAL-00190">
+      <created>1372217066100</created>
+      <updated>1372217066101</updated>
+    </task>
+    <task id="LOCAL-00191">
+      <created>1372217074100</created>
+      <updated>1372217074101</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1365" y="-5" width="1282" height="1030" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26895452" sideWeight="0.48508286" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36363637" sideWeight="0.44134077" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887492" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490024" sideWeight="0.6788155" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939324" sideWeight="0.5392912" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43093923" sideWeight="0.9991883" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819724" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44992295" sideWeight="0.33040702" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2104019" sideWeight="0.5577812" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3286052" sideWeight="0.670418" order="7" side_tool="false" content_ui="combo" x="588" y="155" width="417" height="649" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5701079" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2849162" sideWeight="0.48142165" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6978998" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980299" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44155845" sideWeight="0.48844376" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39935064" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25405845" sideWeight="0.5690608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40662983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2697526" sideWeight="0.5901387" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53644645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42762432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32357472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.403698" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="BR" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="BR" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookRegularUpdateTimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.08186196" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/pdfbox/PDFBox-d-0.7.3.jar!/org/pdfbox/util/PDFTextStripper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/dev/jdk1.6/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="695" column="0" selection-start="25158" selection-end="25158" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/resrc_rec_sys.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1027" column="50" selection-start="16744" selection-end="16744" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="24" selection-start="5111" selection-end="5111" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.11208791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/myResource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="26" selection-start="6867" selection-end="6867" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/snippet/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="46" selection-start="5300" selection-end="5300" vertical-scroll-proportion="0.058891457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/dev/jdk1.6/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="415" column="4" selection-start="16690" selection-end="16690" vertical-scroll-proportion="0.058020476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="12" selection-start="5744" selection-end="5744" vertical-scroll-proportion="0.9030023">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>BR:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.117508814" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (BR)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.117508814" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BR</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.117508814" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.117508814" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

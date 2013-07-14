@@ -1,14 +1,14 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/webapp/WEB-INF/views
 svn://211.151.57.197
 
 
 
-2013-06-25T13:09:09.119075Z
-318
+2013-07-11T07:47:40.776170Z
+338
 naruto
 
 
@@ -26,22 +26,7 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
-admin
-dir
-
 bookResource
-dir
-
-common
-dir
-
-community
-dir
-
-electronicResource
-dir
-
-error
 dir
 
 index.jsp
@@ -78,6 +63,9 @@ naruto
 
 1511
 
+snippet
+dir
+
 index1.jsp
 file
 
@@ -112,13 +100,22 @@ naruto
 
 14073
 
+community
+dir
+
 monitorViews
 dir
 
 search
 dir
 
-snippet
+admin
+dir
+
+common
+dir
+
+error
 dir
 
 template
@@ -159,5 +156,8 @@ baobao
 851
 
 user
+dir
+
+electronicResource
 dir
 

@@ -278,27 +278,10 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
 
     }
 
-    public List<ResourceSizeUtil> getAllResource() throws Exception{
-        List<Resource> resources = this.resourceDao.findAll();
-
-        Iterator it = resources.iterator();
-        List<ResourceSizeUtil> resourcelist = new ArrayList<ResourceSizeUtil>();
-        while(it.hasNext()){
-            Resource resource = (Resource)it.next();
-            long size = resource.getResourceSize();
-            long realSize = size;
-            String unit = "B";
-            if(size > 1024 && size < 1024*1024){
-                realSize = size / 1024;
-                unit = "KB";
-            }
-            else if(size > 1024*1024){
-                realSize = size / 1024 / 1024;
-                unit = "MB";
-            }
-            ResourceSizeUtil resourceSizeUtil = new ResourceSizeUtil(unit,realSize,resource);
-            resourcelist.add(resourceSizeUtil);
-        }
-        return resourcelist;
+    public ResourcePage<ResourceSizeUtil> getAllResource(int pageNo) throws Exception{
+        DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Resource.class);
+        detachedCriteria.add(Restrictions.eq("deleteFlag", 0));
+        ResourcePage pager = new ResourcePage(pageNo,10,resourceDao,detachedCriteria);
+        return pager;
     }
 }

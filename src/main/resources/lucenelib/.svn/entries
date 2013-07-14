@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/resources/lucenelib
 svn://211.151.57.197
 
@@ -12,7 +12,7 @@ svn://211.151.57.197
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,40 +32,6 @@ svn:special svn:externals svn:needs-lock
 
 
 0
-
-je-analysis-1.4.0.jar
-file
-
-
-
-
-2013-01-24T12:37:02.000000Z
-16c953cb8165ec0e6d3231ccb7782771
-2013-04-27T02:40:00.374092Z
-196
-naruto
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-898886
 
 lucene-core-2.0.0.jar
 file
@@ -100,4 +66,38 @@ has-props
 
 
 403597
+
+je-analysis-1.4.0.jar
+file
+
+
+
+
+2013-01-24T12:37:02.000000Z
+16c953cb8165ec0e6d3231ccb7782771
+2013-04-27T02:40:00.374092Z
+196
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+898886
 

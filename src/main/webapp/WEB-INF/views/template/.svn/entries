@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/webapp/WEB-INF/views/template
 svn://211.151.57.197
 
@@ -60,14 +60,14 @@ naruto
 
 298
 
-resourceDetailTmpl.jsp
+resourceUserMayInterestedTmpl.jsp
 file
 
 
 
 
 2012-09-26T05:02:04.000000Z
-fbfd38ac6256409a67e2c8791ccc7649
+442e6a922989fa66b8a3441ad404fdff
 2012-09-24T11:34:26.619269Z
 2
 naruto
@@ -92,7 +92,7 @@ naruto
 
 
 
-307
+293
 
 resourceSystemRecommendTmpl.jsp
 file
@@ -128,14 +128,14 @@ naruto
 
 290
 
-resourceUserMayInterestedTmpl.jsp
+resourceDetailTmpl.jsp
 file
 
 
 
 
 2012-09-26T05:02:04.000000Z
-442e6a922989fa66b8a3441ad404fdff
+fbfd38ac6256409a67e2c8791ccc7649
 2012-09-24T11:34:26.619269Z
 2
 naruto
@@ -160,5 +160,5 @@ naruto
 
 
 
-293
+307
 

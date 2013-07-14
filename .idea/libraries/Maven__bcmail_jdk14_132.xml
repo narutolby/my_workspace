@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: bcmail:jdk14:132">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/pdfbox/bcmail-jdk14-132.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

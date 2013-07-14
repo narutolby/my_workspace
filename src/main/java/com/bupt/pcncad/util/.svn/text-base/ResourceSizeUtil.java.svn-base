@@ -2,6 +2,8 @@ package com.bupt.pcncad.util;
 
 import com.bupt.pcncad.domain.Resource;
 
+import java.io.Serializable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: zhang
@@ -9,7 +11,7 @@ import com.bupt.pcncad.domain.Resource;
  * Time: 上午10:35
  * To change this template use File | Settings | File Templates.
  */
-public class ResourceSizeUtil {
+public class ResourceSizeUtil implements Serializable {
     private String unit;
     private long size;
     private Resource resource;

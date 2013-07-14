@@ -1,18 +1,18 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/service/fetch
 svn://211.151.57.197
 
 
 
-2013-05-23T09:08:50.349674Z
-275
+2013-06-26T02:24:19.299792Z
+324
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,40 +32,6 @@ svn:special svn:externals svn:needs-lock
 
 
 0
-
-FetchBookInfoServiceImpl.java
-file
-324
-
-
-
-2013-06-24T11:42:30.000000Z
-550d1727df7e0093cf377aa6c080b2c3
-2013-06-26T02:24:19.299792Z
-324
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8880
 
 IFetchBookInfoService.java
 file
@@ -100,4 +66,38 @@ naruto
 
 
 858
+
+FetchBookInfoServiceImpl.java
+file
+
+
+
+
+2013-06-24T11:42:30.000000Z
+550d1727df7e0093cf377aa6c080b2c3
+2013-06-26T02:24:19.299792Z
+324
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8880
 

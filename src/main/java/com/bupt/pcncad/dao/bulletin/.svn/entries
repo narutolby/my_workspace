@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/dao/bulletin
 svn://211.151.57.197
 
@@ -12,7 +12,7 @@ svn://211.151.57.197
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,40 +32,6 @@ svn:special svn:externals svn:needs-lock
 
 
 0
-
-BulletinDaoImpl.java
-file
-
-
-
-
-2012-12-18T05:02:28.000000Z
-2c82eb316953cb22b98040bf5a0ae8bf
-2012-12-18T04:55:08.651935Z
-119
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-459
 
 IBulletinDao.java
 file
@@ -100,4 +66,38 @@ naruto
 
 
 367
+
+BulletinDaoImpl.java
+file
+
+
+
+
+2012-12-18T05:02:28.000000Z
+2c82eb316953cb22b98040bf5a0ae8bf
+2012-12-18T04:55:08.651935Z
+119
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+459
 

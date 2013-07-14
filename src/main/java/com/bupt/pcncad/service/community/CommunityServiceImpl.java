@@ -186,4 +186,8 @@ public class CommunityServiceImpl implements ICommunityService {
         return inviters;
 
     }
+    public List<Community> getAllCommunity() throws Exception{
+        List<Community> communities = this.communityDao.find("from Community c where c.state=1");
+        return communities;
+    }
 }

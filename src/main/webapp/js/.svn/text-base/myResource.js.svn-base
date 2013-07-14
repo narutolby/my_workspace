@@ -76,7 +76,8 @@
         };
         $("#aside-content1").delegate("p", "click", function () {
             $(this).parent(".folder").addClass("folder_selected").siblings().removeClass("folder_selected");
-            $("#bidFolder,#resrc_list").hide();
+            $("#bidFolder").hide();
+            $("#resrc_list").empty();
             $("#upload-resource").hide();
 
             var _type=$("#aside-content1").find("p").index($(this));

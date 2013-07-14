@@ -142,6 +142,10 @@
     float: right;
 }
 
+.detail_allRec {
+    float: left;
+}
+
 .title_sysRec {
     text-align: left;
     font-size: 14px;
@@ -151,6 +155,12 @@
 
 .cont_sysRec {
     width: 560px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.cont_allRec {
+    width: 690px;
     text-align: left;
     text-indent: 2em;
 }
@@ -173,6 +183,16 @@
     margin-right: 60px;
     cursor: pointer;
     cursor: hand;
+}
+
+.btn_prev{
+    background: url("../img/btn_view.jpg");
+    padding: 5px 17px;
+    border:none;
+    float:right;
+    margin-right: 60px;
+    cursor:pointer;
+    cursor:hand;
 }
 
 .subtitle_sysRec {

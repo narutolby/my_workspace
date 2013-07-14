@@ -1,7 +1,7 @@
 10
 
 dir
-318
+340
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/dao/fetch
 svn://211.151.57.197
 
@@ -12,7 +12,7 @@ svn://211.151.57.197
 naruto
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,40 +32,6 @@ svn:special svn:externals svn:needs-lock
 
 
 0
-
-BookInfoDaoImpl.java
-file
-
-
-
-
-2013-04-27T07:55:59.000000Z
-61ff35a818f069561ec56ba010619592
-2013-04-29T08:27:02.641795Z
-202
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-452
 
 IBookInfoDao.java
 file
@@ -100,4 +66,38 @@ naruto
 
 
 363
+
+BookInfoDaoImpl.java
+file
+
+
+
+
+2013-04-27T07:55:59.000000Z
+61ff35a818f069561ec56ba010619592
+2013-04-29T08:27:02.641795Z
+202
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+452
 

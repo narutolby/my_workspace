@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: tm:extractors:0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/poi/tm-extractors-0.4.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
