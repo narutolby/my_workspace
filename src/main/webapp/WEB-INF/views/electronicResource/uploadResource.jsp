@@ -102,7 +102,7 @@
                         <dt>财富值</dt>
                         <dd>
                             <div id="selectContainer">
-                                <select id="myDirectory" class="class-table" name="myDirectory" required="true">
+                                <select id="mark" class="class-table" name="mark" required="true">
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>

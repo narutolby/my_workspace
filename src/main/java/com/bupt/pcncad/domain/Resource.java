@@ -70,11 +70,15 @@ public class Resource implements Serializable {
     @ManyToMany(fetch=FetchType.LAZY)
     @JoinTable(name = "RESOURCE_COURSE", joinColumns = @JoinColumn(name = "resource_id"), inverseJoinColumns = @JoinColumn(name = "course_id"))
     private Set<Course> resourceCourses = new HashSet<Course>();
-
+    @Column(name="mark")
+    private int mark;
     @Formula("(select u.user_id from USER u where u.id=upload_user_id)")
     private String uploadUserId;
     @Formula("(select u.user_name from USER u where u.id=upload_user_id)")
     private String uploadUserName;
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "resource_id")
+    private Set<Rate> set = new HashSet<Rate>();
 
     public String getUploadUserId() {
         return uploadUserId;
@@ -251,6 +255,13 @@ public class Resource implements Serializable {
 
     public void setUploadUserName(String uploadUserName) {
         this.uploadUserName = uploadUserName;
+    }
+    public int getMark() {
+        return mark;
+    }
+
+    public void setMark(int mark) {
+        this.mark = mark;
     }
 
 }

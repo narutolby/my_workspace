@@ -9,10 +9,10 @@
     $(function () {
         $("#Filedata").commonUpload({"width":"157px", "height":"45px", "onUploadSuccessTmp":function (file, data, response) {
             var fileName = file.name;
-            $("#file-queue ul").append("<li><a href='resourceOperation/download.html?resourceId=" + data + "'>" + fileName + "</a></li>");
+            $("#file-queue ul").append("<li><a href='resourceOperation/download.html?resourceId=" + data.resourceId + "'>" + fileName + "</a></li>");
             /*$("#title").val(fileName);*/
             $("#summary").val(fileName);
-            uploadResource.resourceIds.push(data);
+            uploadResource.resourceIds.push(data.resourceId);
         },
             overrideEvents:["onUploadStart"],
             onUploadStart:function (filesSelected, filesQueued, queueLength) {
@@ -80,8 +80,9 @@
         resourceIds:[],
         description:"",
         courseIds:"",
+        mark:"",
         save:function () {
-            $.post("resourceOperation/save.json", {resourceIds:this.resourceIds.join(","), description:this.description, courseIds:this.courseIds}, function (data) {
+            $.post("resourceOperation/save.json", {resourceIds:this.resourceIds.join(","), description:this.description, courseIds:this.courseIds,mark:this.mark}, function (data) {
                   if(data.save=="success"){
                       $.messager.alert("亲，提交成功啦，快去我的资源看看吧～") ;
                   }else{
@@ -99,6 +100,7 @@
                 }
                 _uploadResource.description = $("#summary").val();
                 _uploadResource.courseIds = $myDirectory.val().join(",");
+                _uploadResource.mark = $("#mark").val();
                 _uploadResource.save();
             });
         }

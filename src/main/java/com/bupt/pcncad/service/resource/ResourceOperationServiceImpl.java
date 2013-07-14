@@ -43,7 +43,7 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
     private static final int PAGE_SIZE = 13;
 
     @Override
-    public File uploadResource(MultipartFile file,String userId,String...keywords) throws Exception {
+    public File uploadResource(MultipartFile file,String userId,StringBuilder resourceId,String...keywords) throws Exception {
         if (!file.isEmpty()) {
             Resource resource = new Resource();
             User user = this.userDao.get(userId);
@@ -65,8 +65,8 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
             else if (role == 1)
                 resource.setResourceMark(1);
             this.resourceDao.save(resource);
-            String resourceId = resource.getId();
-            String savePath = ResourceUtil.getRealSavePathByResourceId(resourceId);
+            resourceId.append(resource.getId());
+            String savePath = ResourceUtil.getRealSavePathByResourceId(resourceId.toString());
             File directory = new File(savePath);
             if (!directory.exists()) {
                 directory.mkdirs();
@@ -217,11 +217,12 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
     }
 
     @Override
-    public void saveResource(String[] resourceIdArray, String courseIds, String description) throws Exception {
+    public void saveResource(String[] resourceIdArray, String courseIds, String description,int mark) throws Exception {
         String[] courseIdArray = courseIds.split(",");
         for (String resourceId : resourceIdArray) {
             Resource resource = this.resourceDao.get(resourceId);
             resource.setDescription(description);
+            resource.setMark(mark);
             for (String courseId : courseIdArray) {
                 Course course = new Course();
                 course.setId(courseId);

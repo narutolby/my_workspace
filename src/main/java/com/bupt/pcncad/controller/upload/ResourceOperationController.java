@@ -55,13 +55,15 @@ public class ResourceOperationController extends BaseController<Resource> {
                 modelMap.put("login",Constants.LOGIN);
                 return ;
             }
-            File uploadFile = this.resourceOperationService.uploadResource(file,userId,keyword);
+            StringBuilder resourceId=new StringBuilder();
+            File uploadFile = this.resourceOperationService.uploadResource(file,userId,resourceId,keyword);
             String type = file.getOriginalFilename().split("\\.")[1];
             String[] key ={};
             if(type.equalsIgnoreCase("doc") || type.equalsIgnoreCase("pdf")){
                   key = DataTraining.extractiongkeyWordsFromInputFile(DataTraining.router(type,uploadFile.getAbsolutePath()));
             }
             modelMap.put("keys",key);
+            modelMap.put("resourceId",resourceId.toString());
         } catch (Exception e) {
             LoggerUtil.error(this.getClass(), e.getMessage());
             throw e;
@@ -78,9 +80,9 @@ public class ResourceOperationController extends BaseController<Resource> {
            this.resourceOperationService.saveResourceWithUser(resourceId,category,keyWords);
     }*/
     @RequestMapping("/save")
-    public void saveResource(@RequestParam("resourceIds") String resourceIds, @RequestParam("description") String description, @RequestParam("courseIds") String courseIds, ModelMap modelMap, @RequestParam(value = "mail", required = false, defaultValue = "0") int mail) throws Exception {
+    public void saveResource(@RequestParam("resourceIds") String resourceIds, @RequestParam("description") String description, @RequestParam("courseIds") String courseIds,@RequestParam(value = "mark")int mark, ModelMap modelMap, @RequestParam(value = "mail", required = false, defaultValue = "0") int mail) throws Exception {
         final String[] resourceIdArray = resourceIds.split(",");
-        this.resourceOperationService.saveResource(resourceIdArray, courseIds, description);
+        this.resourceOperationService.saveResource(resourceIdArray, courseIds, description,mark);
         modelMap.put("save", "success");
         if (mail == 1) {
             new Thread(new Runnable() {

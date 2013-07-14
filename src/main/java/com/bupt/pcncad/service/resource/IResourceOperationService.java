@@ -20,7 +20,7 @@ import java.util.Map;
  */
 public interface IResourceOperationService {
 
-    public File uploadResource(MultipartFile file,String userId,String... keyword) throws Exception;
+    public File uploadResource(MultipartFile file,String userId,StringBuilder resourceId,String... keyword) throws Exception;
     /**
      * 社区话题上传,图片
     **/
@@ -40,7 +40,7 @@ public interface IResourceOperationService {
 
     public Pager<Resource> loadResource(int pageNo,int pageSize, DetachedCriteria detachedCriteria)throws Exception;
 
-    public void saveResource(String[]resourceIdArray,String courseId,String description) throws Exception;
+    public void saveResource(String[]resourceIdArray,String courseId,String description,int mark) throws Exception;
 
     public List<Resource> map(String[]resourceIds)throws Exception;
 

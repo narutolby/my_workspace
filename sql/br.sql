@@ -44,7 +44,8 @@ create table RESOURCE(
   share_times int(5),
   collect_times int(5),
   resource_snapshot_path varchar(255) ,
-  delete_flag int /*0:代表资源存在 1：代表资源删除*/
+  delete_flag int, /*0:代表资源存在 1：代表资源删除*/
+  mark int default 0
 )ENGINE=InnoDB DEFAULT CHARACTER SET utf8;
 /**/
 create table RESOURCE_COURSE(

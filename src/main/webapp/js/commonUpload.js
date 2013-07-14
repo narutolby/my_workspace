@@ -16,10 +16,12 @@
                     formData: {'Keyword': ' '},
                     preventCaching: false,
                     onUploadSuccess: function (file, data, response) {
-                        var keys = JSON.parse(data).keys;
+                        data = eval('('+data+')');
+                        var keys = data.keys;
                         var tmp = [];
+                        tmp.push("<li><strong style='font-size:15px;color:red'>关键字:</strong></li>")
                         for(var i=0;i<keys.length;i++){
-                            if(i==5){
+                            if(i==10){
                                 break;
                             }
                             tmp.push("<li><strong style='font-size:14px'>"+keys[i]+"</strong></li>");
