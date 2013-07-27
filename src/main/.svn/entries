@@ -1,14 +1,14 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR/src/main
 svn://211.151.57.197
 
 
 
-2013-07-11T07:48:00.547521Z
-340
+2013-07-26T10:40:00.811786Z
+381
 naruto
 
 
@@ -26,12 +26,12 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
+resources
+dir
+
 webapp
 dir
 
 java
-dir
-
-resources
 dir
 

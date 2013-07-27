@@ -1,5 +1,7 @@
 package com.bupt.pcncad.study;
 
+import com.sun.servicetag.SystemEnvironment;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -23,5 +25,12 @@ public class TestQueue {
         }
         System.out.println();
         System.out.println(queue.size());
+        Queue q = new LinkedList();
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        int i=  2147483647;
+        int j = -2147483648;
+        System.out.println(Integer.toBinaryString(i));
+        System.out.println(Integer.toBinaryString(j));
     }
 }

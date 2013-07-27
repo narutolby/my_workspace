@@ -19,7 +19,7 @@
     </properties>
     <dependencies>
         <!--导入IKAnalyzer Maven本地仓库-->
-        <!--<dependency>
+       <!-- <dependency>
             <groupId>com.IKAnalyzer.ik</groupId>
             <artifactId>IKAnalyzer</artifactId>
             <version>1.0</version>
@@ -366,6 +366,18 @@
             <artifactId>Douban4jOAuth2</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.artofsolving</groupId>
+            <artifactId>jodconverter</artifactId>
+            <version>2.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>icepdf</groupId>
+            <artifactId>core</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/resources/pdfbox/icepdf-core-1.jar</systemPath>
+        </dependency>
         <!--<dependency>
             <groupId>lucene</groupId>
             <artifactId>lucene</artifactId>
@@ -376,7 +388,7 @@
             <artifactId>IKAnalyzer</artifactId>
             <version>3.2.3</version>
         </dependency>-->
-        <!-- <dependency>
+       <!-- <dependency>
             <groupId>lucene</groupId>
             <artifactId>lucene</artifactId>
             <version>1.4.3</version>
@@ -388,14 +400,14 @@
             <scope>test</scope>
         </dependency>-->
 
-        <!-- <dependency>
+       <!-- <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-test-framework</artifactId>
             <version>4.0.0</version>
             <scope>test</scope>
         </dependency>-->
 
-        <!--  <dependency>
+      <!--  <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-common</artifactId>
             <version>4.0.0</version>
@@ -463,7 +475,7 @@
             <systemPath>${basedir}/src/main/resources/lucenelib/lucene-core-2.0.0.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>je</groupId>
+             <groupId>je</groupId>
             <artifactId>analysis</artifactId>
             <version>1.4.0</version>
             <scope>system</scope>
@@ -487,10 +499,10 @@
                 <configuration>
                     <source>${java-version}</source>
                     <target>${java-version}</target>
-                   <!-- <compilerArguments>
+                    <compilerArguments>
                         <verbose/>
                         <bootclasspath>${java.home}/lib/rt.jar</bootclasspath>
-                    </compilerArguments>-->
+                    </compilerArguments>
                 </configuration>
             </plugin>
             <plugin>
@@ -500,13 +512,13 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-           <!-- <plugin>
+            <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <outputDirectory>${output.directory}</outputDirectory>
                 </configuration>
-            </plugin>-->
-             <plugin>
+            </plugin>
+            <!-- <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.26</version>
@@ -519,7 +531,7 @@
                     <contextPath>/</contextPath>
                     <scanIntervalSeconds>1</scanIntervalSeconds>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
         <resources>
             <resource>
@@ -557,10 +569,10 @@
                 <jdbc.password>root</jdbc.password>
                 <show.sql>true</show.sql>
                 <log.level>info</log.level>
-                <resource.upload.path>${user.home}/upload</resource.upload.path>
+                <resource.upload.path>/home/naruto/upload</resource.upload.path>
                 <lib.type>dll</lib.type>
                 <monitor.log.path>D:\test.log</monitor.log.path>
-            <!--    <output.directory>/home/naruto</output.directory>-->
+                <output.directory>/home/naruto</output.directory>
             </properties>
         </profile>
         <profile>
@@ -588,7 +600,7 @@
             </activation>
             <properties>
                 <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://211.151.57.197:3306/BR</jdbc.url>
+                <jdbc.url>jdbc:mysql://211.151.57.197:3306/mytest</jdbc.url>
                 <jdbc.username>root</jdbc.username>
                 <jdbc.password>pcncad197</jdbc.password>
                 <show.sql>false</show.sql>

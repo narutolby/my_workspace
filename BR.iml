@@ -37,7 +37,6 @@
       <excludeFolder url="file://$MODULE_DIR$/target/BR" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
-      <excludeFolder url="file://$MODULE_DIR$/target/work" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -134,8 +133,15 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.3" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: com.artofsolving:jodconverter:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:juh:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:jurt:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:ridl:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:unoil:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: icepdf:core:1" level="project" />
     <orderEntry type="library" name="Maven: lucene:core:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: je:analysis:1.4.0" level="project" />
+    <orderEntry type="library" name="Maven: json:name:1.o" level="project" />
   </component>
 </module>
 

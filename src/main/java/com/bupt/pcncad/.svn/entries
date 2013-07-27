@@ -1,14 +1,14 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad
 svn://211.151.57.197
 
 
 
-2013-07-11T07:47:19.784285Z
-336
+2013-07-26T10:38:49.530036Z
+378
 naruto
 
 
@@ -25,19 +25,6 @@ naruto
 
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
-
-lucene
-dir
-
-pattern
-dir
-
-
-
-add
-
-util
-dir
 
 service
 dir
@@ -70,5 +57,14 @@ monitor
 dir
 
 study
+dir
+
+lucene
+dir
+
+pattern
+dir
+
+util
 dir
 

@@ -1,7 +1,7 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR/src/main/webapp/js/easyui
 svn://211.151.57.197
 
@@ -25,6 +25,9 @@ naruto
 
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
+
+plugins
+dir
 
 easyloader.js
 file
@@ -98,8 +101,5 @@ naruto
 281399
 
 locale
-dir
-
-plugins
 dir
 

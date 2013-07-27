@@ -1,6 +1,5 @@
 package com.bupt.pcncad.domain;
 
-import net.sf.ehcache.util.counter.sampled.TimeStampedCounterValue;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.hibernate.annotations.Formula;
 import org.hibernate.annotations.GenericGenerator;
@@ -58,6 +57,10 @@ public class Resource implements Serializable {
     private String resourceSnapshotPath;
     @Column(name = "delete_flag")
     private int deleteFlag;
+    @Column(name = "have_swf", columnDefinition="int default 0")
+    private int haveSwf;
+    @Column(name = "cover_jpg")
+    private int coverJpg;
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "collectResources")
     private Set<User> collectResourceUsers = new HashSet<User>();
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "downloadResources")
@@ -70,7 +73,7 @@ public class Resource implements Serializable {
     @ManyToMany(fetch=FetchType.LAZY)
     @JoinTable(name = "RESOURCE_COURSE", joinColumns = @JoinColumn(name = "resource_id"), inverseJoinColumns = @JoinColumn(name = "course_id"))
     private Set<Course> resourceCourses = new HashSet<Course>();
-    @Column(name="mark")
+    @Column(name="mark" , columnDefinition="int default 0")
     private int mark;
     @Formula("(select u.user_id from USER u where u.id=upload_user_id)")
     private String uploadUserId;
@@ -264,4 +267,27 @@ public class Resource implements Serializable {
         this.mark = mark;
     }
 
+    public int getHaveSwf() {
+        return haveSwf;
+    }
+
+    public void setHaveSwf(int haveSwf) {
+        this.haveSwf = haveSwf;
+    }
+
+    public Set<Rate> getSet() {
+        return set;
+    }
+
+    public void setSet(Set<Rate> set) {
+        this.set = set;
+    }
+
+    public int getCoverJpg() {
+        return coverJpg;
+    }
+
+    public void setCoverJpg(int coverJpg) {
+        this.coverJpg = coverJpg;
+    }
 }

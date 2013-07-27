@@ -11,7 +11,12 @@
         pageNo:1,
         resources:$.template("resources",
             "<li class='li_first'>"+
-                "<div class='detail_allRec'>"+
+                "{{if resource.coverJpg == 0}}"+
+                    "<div class='pic_sysRec'><img src='img/fileIcon/${resource.resourceType}.png'/></div>"+
+                "{{else}}"+
+                    "<div class='pic_sysRec'><img src='swf/${resource.id}.jpg'/></div>"+
+                "{{/if}}"+
+                "<div class='detail_sysRec'>"+
                     "<p class='title_sysRec'>${resource.resourceRealName}</p>"+
                     "<div>"+
                         "<p class='subtitle_sysRec'>资源大小：${size} ${unit}</p>"+
@@ -27,11 +32,11 @@
                         "</div>"+
                     "</div>"+
                     "<div class='clr'></div>"+
-                    "<p class='cont_allRec'>"+
+                    "<p class='cont_sysRec'>"+
                         "${resource.description}"+
                     "</p>"+
                     "<div>"+
-                        "<a href='elec_resrc/preview.html' target='_blank'><input type='button' class='btn_prev' value='&nbsp;&nbsp;预览'/></a>"+
+                        "<a href='elec_resrc/preview.html?resourceId=${resource.id}' target='_blank'><input type='button' class='btn_prev' value='&nbsp;&nbsp;预览'/></a>"+
                         "<input type='button' class='btn_col' value='&nbsp;&nbsp;收藏'/>"+
                         "<input type='button' class='btn_down' value='&nbsp;&nbsp;下载'/>"+
                     "</div>"+

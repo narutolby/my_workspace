@@ -55,7 +55,11 @@ public interface IResourceOperationService {
 
     public Map<String,String> getTop4ShareUser() throws Exception;
 
-    public ResourcePage<ResourceSizeUtil> getAllResource(int pageNo) throws Exception;
+    public ResourcePage<ResourceSizeUtil> getAllResource(String path,int pageNo) throws Exception;
+
+    public String getResourcePerview(String resourceId,String path) throws Exception;
+
+    public Resource getResource() throws Exception;
 }
 
 

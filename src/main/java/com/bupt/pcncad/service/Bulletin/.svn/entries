@@ -1,7 +1,7 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/service/Bulletin
 svn://211.151.57.197
 
@@ -33,47 +33,13 @@ naruto
 
 0
 
-IBulletinService.java
-file
-
-
-
-
-2012-12-18T05:19:45.000000Z
-5132a6317cbcab81679cd27a4ecb6c47
-2012-12-18T04:55:08.651935Z
-119
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-349
-
 BulletinServiceImpl.java
 file
 
 
 
 
-2012-12-18T05:36:02.000000Z
+2012-12-18T05:36:02.677069Z
 c383583a39a8ab603bc155ecf9d190b8
 2012-12-18T06:24:50.093325Z
 120
@@ -100,4 +66,38 @@ naruto
 
 
 1166
+
+IBulletinService.java
+file
+
+
+
+
+2012-12-18T05:19:45.145102Z
+5132a6317cbcab81679cd27a4ecb6c47
+2012-12-18T04:55:08.651935Z
+119
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+349
 

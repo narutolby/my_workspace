@@ -20,6 +20,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -291,21 +293,34 @@ public class ElecResourceController extends BaseController<Resource> {
         model.addAttribute("model", modelList);
     }
     @RequestMapping("/all")
-    public String getAllResource(ModelMap model) throws Exception{
-        ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(1);
+    public String getAllResource(ModelMap model,HttpServletRequest request) throws Exception{
+        String path = request.getSession().getServletContext().getRealPath("/");
+        path = path +"swf\\";
+        System.out.println(path);
+        ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(path,1);
         model.put("allResource",resources);
         //return ELECRESRCROOTPATH + "/FlexPaperViewer";
         return ELECRESRCROOTPATH + "/allResource";
     }
     @RequestMapping("/resourcePage")
-    public void getResourcePage(@RequestParam(value = "pageNo")int pageNo,ModelMap modelMap) throws Exception{
-        ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(pageNo);
+    public void getResourcePage(HttpServletRequest request,@RequestParam(value = "pageNo")int pageNo,ModelMap modelMap) throws Exception{
+        String path = request.getSession().getServletContext().getRealPath("/");
+        path = path +"swf\\";
+        System.out.println(path);
+        ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(path,pageNo);
         modelMap.put("allResource",resources);
     }
     @RequestMapping("/preview")
-    public String getPreview() throws Exception{
+    public String getPreview(ModelMap model, @RequestParam(value = "resourceId", required = true) String resourceId, HttpServletRequest request,HttpServletResponse response) throws Exception{
         //ResourcePage<ResourceSizeUtil> resources = this.resourceOperationService.getAllResource(pageNo);
         //modelMap.put("allResource",resources);
+        String path = request.getSession().getServletContext().getRealPath("/");
+        path = path +"swf/";
+        System.out.println(path);
+        String resourcePreview = this.resourceOperationService.getResourcePerview(resourceId,path);
+
+
+        model.put("resourcePreview",resourcePreview);
         return ELECRESRCROOTPATH + "/FlexPaperViewer";
     }
 }

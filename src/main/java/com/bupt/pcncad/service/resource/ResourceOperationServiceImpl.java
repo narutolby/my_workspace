@@ -280,10 +280,93 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
 
     }
 
-    public ResourcePage<ResourceSizeUtil> getAllResource(int pageNo) throws Exception{
+    public ResourcePage<ResourceSizeUtil> getAllResource(String path, int pageNo) throws Exception{
         DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Resource.class);
         detachedCriteria.add(Restrictions.eq("deleteFlag", 0));
-        ResourcePage pager = new ResourcePage(pageNo,10,resourceDao,detachedCriteria);
+        ResourcePage pager = new ResourcePage(path,pageNo,10,resourceDao,detachedCriteria);
         return pager;
     }
+
+    public String getResourcePerview(String resourceId,String path) throws Exception{
+//        Resource resource = this.resourceDao.get(resourceId);
+//        String type = resource.getResourceType();
+//        String sourcePath = ResourceUtil.getRealSavePathByResourceId(resourceId);
+//        String sourceFile = sourcePath + resourceId + "." + type;
+//        String destFile = null;
+//        if(resource.getHaveSwf() == 0){
+//            if(!(resource.getResourceType().equals("pdf"))){
+//                destFile = sourcePath + resourceId + ".pdf";
+//                System.out.println(Office2PDF.office2PDF(sourceFile, destFile));
+//            }
+//            sourceFile = sourcePath + resourceId + ".pdf";
+//            destFile = path + resourceId + ".swf";
+//            System.out.println(PDF2SWF.pdf2SWF(sourceFile, destFile));
+//            //resource.setHaveSwf(1);
+//            this.resourceDao.save(resource);
+//        }
+        Resource resource = this.resourceDao.get(resourceId);
+        String type = resource.getResourceType();
+        String sourcePath = ResourceUtil.getRealSavePathByResourceId(resourceId);
+        String sourceFile = sourcePath + resourceId + "." + type;
+        String destFile = null;
+        if(resource.getHaveSwf() == 0 || resource.getHaveSwf() == 2){
+            boolean ispdf = resource.getResourceType().equals("pdf");
+            boolean isdoc = resource.getResourceType().equals("doc");
+            boolean isdocx = resource.getResourceType().equals("docx");
+            boolean isppt = resource.getResourceType().equals("ppt");
+            boolean ispptx = resource.getResourceType().equals("pptx");
+
+            System.out.println(path);
+            int office2pdf = -1;
+            int pdf2swf = -1;
+            if(ispdf || isdoc || isdocx || isppt || ispptx) {
+                if(!ispdf){
+                    destFile = sourcePath + resourceId + ".pdf";
+                    System.out.println("**********************type to pdfl****************");
+                    office2pdf = Office2PDF.office2PDF(sourceFile, destFile);
+                }
+                else
+                    office2pdf = 0;
+                sourceFile = sourcePath + resourceId + ".pdf";
+                destFile = path + resourceId + ".swf";
+                if(office2pdf == 0){
+                    PDF2JPG pdf2jpg = new PDF2JPG();
+                    System.out.println("**********************pdf to jpg****************");
+                    pdf2jpg.generateBookIamge(sourceFile,path + resourceId + ".jpg");
+                    resource.setCoverJpg(1);
+                    resourceDao.update(resource);
+                    System.out.println("**********************pdf to swf****************");
+                    pdf2swf = PDF2SWF.pdf2SWF(sourceFile, destFile);
+                    if(pdf2swf == 0){
+                        resource.setHaveSwf(1);
+                        resourceDao.update(resource);
+                        System.out.println("**********************resource is done****************");
+                    }
+                    else {
+                        resource.setHaveSwf(2);
+                        resourceDao.update(resource);
+                        System.out.println("**********************resource is fail to swf****************");
+                    }
+                }
+                else {
+                    resource.setHaveSwf(2);
+                    resourceDao.update(resource);
+                    System.out.println("***************resource is fail to pdf************************");
+                }
+            }
+            else {
+                System.out.println("****************resource is other type******************");
+                resource.setHaveSwf(1);
+                resourceDao.update(resource);
+            }
+        }
+
+        return "swf/" + resourceId + ".swf";
+    }
+
+    public Resource getResource() throws Exception{
+        Resource resource = this.resourceDao.findEntity("from Resource r where r.haveSwf=0");
+        return resource;
+    }
+
 }

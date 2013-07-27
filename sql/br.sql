@@ -45,7 +45,9 @@ create table RESOURCE(
   collect_times int(5),
   resource_snapshot_path varchar(255) ,
   delete_flag int, /*0:代表资源存在 1：代表资源删除*/
-  mark int default 0
+  mark int default 0,
+  have_swf int default 0,    /*0:代表资源不存在对应的swf 1:代表资源存在对应的swf*/
+  cover_jpg int default 0
 )ENGINE=InnoDB DEFAULT CHARACTER SET utf8;
 /**/
 create table RESOURCE_COURSE(

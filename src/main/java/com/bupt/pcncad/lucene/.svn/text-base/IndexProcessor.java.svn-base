@@ -1,27 +1,6 @@
 /*
 package com.bupt.pcncad.lucene;
-
-import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.cjk.CJKAnalyzer;
-import org.apache.lucene.analysis.cn.ChineseAnalyzer;
-import org.apache.lucene.analysis.core.KeywordAnalyzer;
-import org.apache.lucene.analysis.core.SimpleAnalyzer;
-import org.apache.lucene.analysis.core.StopAnalyzer;
-import org.apache.lucene.analysis.core.WhitespaceAnalyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
-import org.apache.lucene.analysis.util.StopwordAnalyzerBase;
-import org.apache.lucene.document.*;
-import org.apache.lucene.index.IndexWriter;
-import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.store.Directory;
-import org.apache.lucene.store.FSDirectory;
-import org.apache.lucene.util.Version;
-
 import java.io.*;
-
-import static org.apache.lucene.util.Version.LUCENE_40;
 
 */
 /**

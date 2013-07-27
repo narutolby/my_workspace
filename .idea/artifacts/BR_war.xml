@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="BR.war">
       <element id="artifact" artifact-name="BR:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/json-1.0.jar" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

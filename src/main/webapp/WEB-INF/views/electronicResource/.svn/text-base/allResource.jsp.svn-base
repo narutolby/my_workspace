@@ -78,7 +78,13 @@
         <ul id="resourceList" class="resrc_list">
             <c:forEach items="${allResource.resourcelist}" var="resourceutil">
                 <li class="li_first">
-                    <div class="detail_allRec">
+                    <c:if test="${resourceutil.resource.coverJpg==0}">
+                        <div class="pic_sysRec"><img src="img/fileIcon/${resourceutil.resource.resourceType}.png"/></div>
+                    </c:if>
+                    <c:if test="${resourceutil.resource.coverJpg==1}">
+                        <div class="pic_sysRec"><img src="swf/${resourceutil.resource.id}.jpg"/></div>
+                    </c:if>
+                    <div class="detail_sysRec">
                         <p class="title_sysRec">${resourceutil.resource.resourceRealName}</p>
                         <div>
                             <p class="subtitle_sysRec">资源大小：${resourceutil.size} ${resourceutil.unit}</p>
@@ -96,11 +102,11 @@
                             </div>
                         </div>
                         <div class="clr"></div>
-                        <p class="cont_allRec">
+                        <p class="cont_sysRec">
                                 ${resourceutil.resource.description}
                         </p>
                         <div>
-                            <a href="elec_resrc/preview.html" target="_blank"><input type="button" class="btn_prev" value="&nbsp;&nbsp;预览"/></a>
+                            <a href="elec_resrc/preview.html?resourceId=${resourceutil.resource.id}" target="_blank"><input type="button" class="btn_prev" value="&nbsp;&nbsp;预览"/></a>
                             <input type="button" class="btn_col" value="&nbsp;&nbsp;收藏"/>
                             <input type="button" class="btn_down" value="&nbsp;&nbsp;下载"/>
                         </div>

@@ -21,7 +21,7 @@ import static com.bupt.pcncad.util.Constants.PAGE_NO;
  * To change this template use File | Settings | File Templates.
  */
 public class ResourcePage<T extends Serializable> {
-    private IHibernateGenericDao<T, String> hibernateGenericDao = null;
+    private IHibernateGenericDao<Resource, String> hibernateGenericDao = null;
 
     private DetachedCriteria detachedCriteria;
 
@@ -35,19 +35,19 @@ public class ResourcePage<T extends Serializable> {
 
     private List<ResourceSizeUtil> resourcelist = new ArrayList<ResourceSizeUtil>();
 
-    public ResourcePage(int pageNo, int pageSize, IHibernateGenericDao<T, String> hibernateGenericDao, DetachedCriteria detachedCriteria) {
+    public ResourcePage(String path, int pageNo, int pageSize, IHibernateGenericDao<Resource, String> hibernateGenericDao, DetachedCriteria detachedCriteria) {
         this.pageNo = pageNo;
         this.pageSize = pageSize;
         this.hibernateGenericDao = hibernateGenericDao;
         this.detachedCriteria = detachedCriteria;
         try {
-            this.init();
+            this.init(path);
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
     }
-    private void init() throws IOException {
+    private void init(String path) throws IOException {
         this.totalCount = this.hibernateGenericDao.getCount(detachedCriteria);
         this.pageCount = (int) (this.totalCount % this.pageSize == 0 ? this.totalCount / this.pageSize : this.totalCount / this.pageSize + 1);
         if(pageNo<1){
@@ -57,38 +57,36 @@ public class ResourcePage<T extends Serializable> {
         }
         detachedCriteria.setProjection(null);
         detachedCriteria.setResultTransformer(CriteriaSpecification.ROOT_ENTITY);
-        List<T> resources = this.hibernateGenericDao.findByHql("from Resource r where r.deleteFlag=?", (pageNo - 1)*this.pageSize, this.pageSize, 0);
+        List<Resource> resources = this.hibernateGenericDao.findByHql("from Resource r where r.deleteFlag=?", (pageNo - 1)*this.pageSize, this.pageSize, 0);
 
         Iterator it = resources.iterator();
         while(it.hasNext()){
             Resource resource = (Resource)it.next();
-
-//            String resourceId = resource.getId();
-//            String str = resourceId.substring(26);
-//            String path = "D:\\home\\naruto\\upload";
-//            for(int i=0;i<str.length();i++){
-//                if((i+1)%2==0){
-//                    path = path + str.charAt(i);
-//                }
-//                else
-//                    path = path + "\\" + str.charAt(i);
-//            }
-//            path = path+"\\"+resourceId+"."+resource.getResourceType();
-//            FileInputStream fis = null;
-//            try {
-//                fis = new FileInputStream(path);
-//                //BufferedWriter writer = new BufferedWriter(new FileWriter("E:\\pdf_change.txt"));
-//                PDFParser p = new PDFParser(fis);
-//                p.parse();
-//                PDFTextStripper ts = new PDFTextStripper();
-//                String s = ts.getText(p.getPDDocument());
-//                //writer.write(s);
-//                System.out.println(s);
-//                fis.close();
-//            } catch (FileNotFoundException e) {
-//                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-//            }
-
+            String resourceId = resource.getId();
+            String type = resource.getResourceType();
+            String sourcePath = ResourceUtil.getRealSavePathByResourceId(resourceId);
+            String sourceFile = sourcePath + resourceId + "." + type;
+            String destFile = null;
+            if(resource.getHaveSwf() == 0){
+                boolean ispdf = resource.getResourceType().equals("pdf");
+                boolean isdoc = resource.getResourceType().equals("doc");
+                boolean isdocx = resource.getResourceType().equals("docx");
+                boolean isppt = resource.getResourceType().equals("ppt");
+                boolean ispptx = resource.getResourceType().equals("pptx");
+                if(ispdf || isdoc || isdocx || isppt || ispptx) {
+                    if(!ispdf){
+                        destFile = sourcePath + resourceId + ".pdf";
+                        System.out.println(Office2PDF.office2PDF(sourceFile, destFile));
+                    }
+                    sourceFile = sourcePath + resourceId + ".pdf";
+                    destFile = path + resourceId + ".swf";
+                    PDF2JPG pdf2jpg = new PDF2JPG();
+                    pdf2jpg.generateBookIamge(sourceFile,path + resourceId + ".jpg");
+                    System.out.println(PDF2SWF.pdf2SWF(sourceFile, destFile));
+                    resource.setHaveSwf(1);
+                    this.hibernateGenericDao.save(resource);
+                }
+            }
 
             long size = resource.getResourceSize();
             long realSize = size;

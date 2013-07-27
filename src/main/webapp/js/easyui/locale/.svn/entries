@@ -1,7 +1,7 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR/src/main/webapp/js/easyui/locale
 svn://211.151.57.197
 
@@ -162,40 +162,6 @@ naruto
 
 2038
 
-easyui-lang-fr.js
-file
-
-
-
-
-2012-09-26T05:02:05.000000Z
-941add24deca4e75eaf9b666123ffc17
-2012-09-24T11:59:50.548445Z
-4
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2058
-
 easyui-lang-es.js
 file
 
@@ -229,6 +195,40 @@ naruto
 
 
 2154
+
+easyui-lang-fr.js
+file
+
+
+
+
+2012-09-26T05:02:05.000000Z
+941add24deca4e75eaf9b666123ffc17
+2012-09-24T11:59:50.548445Z
+4
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2058
 
 easyui-lang-nl.js
 file
@@ -400,40 +400,6 @@ naruto
 
 2536
 
-easyui-lang-ru.js
-file
-
-
-
-
-2012-09-26T05:02:05.000000Z
-4f2177eeea598c188f1a80e3feaa3be7
-2012-09-24T11:59:50.548445Z
-4
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2451
-
 easyui-lang-af.js
 file
 
@@ -468,14 +434,14 @@ naruto
 
 1957
 
-easyui-lang-de.js
+easyui-lang-ru.js
 file
 
 
 
 
 2012-09-26T05:02:05.000000Z
-421e6f9e68c75df5716e5aa294ca957e
+4f2177eeea598c188f1a80e3feaa3be7
 2012-09-24T11:59:50.548445Z
 4
 naruto
@@ -500,7 +466,7 @@ naruto
 
 
 
-2049
+2451
 
 easyui-lang-bg.js
 file
@@ -535,6 +501,40 @@ naruto
 
 
 2275
+
+easyui-lang-de.js
+file
+
+
+
+
+2012-09-26T05:02:05.000000Z
+421e6f9e68c75df5716e5aa294ca957e
+2012-09-24T11:59:50.548445Z
+4
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2049
 
 easyui-lang-zh_TW.js
 file

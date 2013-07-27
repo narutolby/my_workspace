@@ -1,25 +1,27 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<html>
 <head>
-    <title>FlexPaper</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <%@include file="../snippet/meta.jsp" %>
     <style type="text/css" media="screen">
         html, body	{ height:100%; }
         body { margin:0; padding:0; overflow:auto; }
         #flashContent { display:none; }
     </style>
 
-    <script type="text/javascript" src="../../../js/flexpaper_flash.js"></script>
+    <script type="text/javascript" src="js/flexpaper_flash.js"></script>
 </head>
 <body>
 <div>
     <a id="viewerPlaceHolder" style="width:100%;height:100%;display:block"></a>
-
+    <input type="hidden" id="resource" value="${resourcePreview}"/>
     <script type="text/javascript">
         var fp = new FlexPaperViewer(
-                '../../../swf/FlexPaperViewer',
+                'swf/FlexPaperViewer',
                 'viewerPlaceHolder', { config : {
-                    SwfFile : escape('../../../swf/Paper.swf'),
+                    SwfFile : escape(document.getElementById("resource").value),
+                    //SwfFile : escape("../../../swf/Paper.swf"),
                     Scale : 100,
                     ZoomTransition : 'easeOut',
                     ZoomTime : 0.5,

@@ -1,1 +1,6 @@
 /*/.svn/
+*.class
+poi-3.7/
+.idea/
+data/
+.svn

@@ -9,9 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -200,6 +198,8 @@ public class BookInfoCrawler {
        return this.allBooks;
    }
     public static void main(String[] args) throws Exception {
-        new BookInfoCrawler().fetchBookInfoByHotSearchQuery();
+        //new BookInfoCrawler().fetchBookInfoByHotSearchQuery();
+        int [][]ia = new int[2][];
+        System.out.println(ia[0]);
     }
 }

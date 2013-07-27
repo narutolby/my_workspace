@@ -1,14 +1,14 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR
 svn://211.151.57.197
 
 
 
-2013-07-11T07:48:00.547521Z
-340
+2013-07-26T10:40:00.811786Z
+381
 naruto
 
 
@@ -26,6 +26,340 @@ naruto
 
 2a932f70-87d7-4e8e-96fd-45b92492e6a5
 
+2.txt
+file
+
+
+
+
+2013-07-10T14:38:39.053534Z
+d41d8cd98f00b204e9800998ecf8427e
+2013-07-14T02:14:09.353970Z
+341
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+jwysiwyg-05.zip
+file
+
+
+
+
+2013-06-06T03:20:22.272804Z
+175c86c858e59420ac4618f4c4002be7
+2013-07-14T02:44:48.065740Z
+358
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10094
+
+IKAnalyzer-1.0.jar
+file
+
+
+
+
+2013-04-23T09:29:52.000000Z
+05d1b014ca51a24515c91ec0ffeba575
+2013-07-14T02:36:47.248357Z
+351
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1166203
+
+json-1.0.jar
+file
+
+
+
+
+2013-04-23T09:29:31.000000Z
+c1003bdd6ce2e3fb3a589ba64654452d
+2013-07-14T02:36:47.248357Z
+351
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40395
+
+6.txt
+file
+
+
+
+
+2013-07-10T14:38:39.053534Z
+d41d8cd98f00b204e9800998ecf8427e
+2013-07-14T02:14:09.353970Z
+341
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+BR.iml
+file
+
+
+
+
+
+24a7b99f6fbf84207b5ddc0e82b5f879
+2013-07-16T07:10:04.109987Z
+365
+naruto
+
+baidu.result.rar
+file
+
+
+
+
+2013-06-23T11:45:56.495502Z
+a8a0d08d18db4da1658a4119c6c079e4
+2013-07-14T02:45:14.202843Z
+359
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+61765
+
+target
+dir
+
+
+
+add
+
+src
+dir
+
+pom.xml
+file
+
+
+
+
+2013-07-27T07:57:46.589484Z
+4aa11366c3013a096a97ea4105d0fc3e
+2013-07-26T10:36:50.164487Z
+370
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26246
+
+Douban-Java-SDK-OAuth2-origin
+dir
+
+icepdf-core.jar
+file
+
+
+
+
+2013-07-27T07:57:46.605484Z
+ef3cb012f831d2e6cc302aefbf6b6640
+2013-07-26T10:36:43.017369Z
+369
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1513370
+
+poi-3.7
+dir
+
+Douban-Java-SDK-OAuth2-origin.zip
+file
+
+
+
+
+2013-04-23T02:20:35.782544Z
+1405c58fde4dfcbf83f436806f0f332f
+2013-07-14T02:28:19.779993Z
+344
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87575
+
 tags
 file
 0
@@ -33,17 +367,44 @@ file
 
 add
 
+linux1.txt
+file
+
+
+
+
+2013-06-29T07:51:01.847580Z
+a379b1639bca58402e8888bf1a4666ee
+2013-07-14T02:14:09.353970Z
+341
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+778400
+
 sql
 dir
 
-BR.iml
-file
-0
-
-
-add
-
-logs
+tmp
 dir
 
 
@@ -84,33 +445,68 @@ has-props
 
 852957
 
-doc
-dir
+Apache_OpenOffice_incubating_3.4.1_Linux_x86_install-deb_zh-CN.tar.gz.crdownload
+file
+
+
+
+
+2013-07-10T15:02:55.637082Z
+763c1aeee9018f1f3418ea9bae3b1bb8
+2013-07-14T02:43:26.133402Z
+356
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+56927656
 
-target
+logs
 dir
 
 
 
 add
 
-src
+doc
+dir
+
+trainingData
 dir
 
 data
 dir
 
-pom.xml
+SogouC.reduced.20061127.zip
 file
 
 
 
 
-2013-04-23T13:10:05.000000Z
-fcff718d1a125477721ccf5d34fba15a
-2013-04-27T02:40:41.466496Z
-200
+2013-06-23T08:05:12.243200Z
+d721854620541536a015b6dfa321655e
+2013-07-14T02:40:54.689224Z
+355
 naruto
+has-props
 
 
 
@@ -131,6 +527,39 @@ naruto
 
 
 
+30683917
+
+poi-src-3.7-20101029.zip
+file
 
-21768
+
+
+
+2013-07-04T08:29:05.169561Z
+a6f80911a6a8b4d3cf97c1550d873e01
+2013-07-14T02:27:30.239464Z
+343
+naruto
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+39720676
 

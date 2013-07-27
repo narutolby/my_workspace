@@ -1,7 +1,7 @@
 10
 
 dir
-340
+381
 svn://211.151.57.197/BR/src/main/java/com/bupt/pcncad/service/fetch
 svn://211.151.57.197
 
@@ -33,47 +33,13 @@ naruto
 
 0
 
-IFetchBookInfoService.java
-file
-
-
-
-
-2013-05-14T07:50:59.000000Z
-75e6fb38ecf6e6a47303e59282ad90aa
-2013-05-23T09:08:50.349674Z
-275
-naruto
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-858
-
 FetchBookInfoServiceImpl.java
 file
 
 
 
 
-2013-06-24T11:42:30.000000Z
+2013-06-24T11:42:30.854897Z
 550d1727df7e0093cf377aa6c080b2c3
 2013-06-26T02:24:19.299792Z
 324
@@ -100,4 +66,38 @@ naruto
 
 
 8880
+
+IFetchBookInfoService.java
+file
+
+
+
+
+2013-05-14T07:50:59.068952Z
+75e6fb38ecf6e6a47303e59282ad90aa
+2013-05-23T09:08:50.349674Z
+275
+naruto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+858
 

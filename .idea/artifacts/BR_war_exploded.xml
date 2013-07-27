@@ -71,6 +71,25 @@
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.2.0" />
           <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.3" />
           <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+          <element id="library" level="project" name="Maven: com.artofsolving:jodconverter:2.2.1" />
+          <element id="library" level="project" name="Maven: org.openoffice:juh:2.3.0" />
+          <element id="library" level="project" name="Maven: org.openoffice:jurt:2.3.0" />
+          <element id="library" level="project" name="Maven: org.openoffice:ridl:2.3.0" />
+          <element id="library" level="project" name="Maven: org.openoffice:unoil:2.3.0" />
+          <element id="library" level="project" name="Maven: lucene:core:2.0.0" />
+          <element id="file-copy" path="$PROJECT_DIR$/IKAnalyzer-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/json-1.0.jar" />
+          <element id="library" level="project" name="Maven: bcmail:jdk14:132" />
+          <element id="library" level="project" name="Maven: bcprov:jdk14:132" />
+          <element id="library" level="project" name="Maven: checkstyle:all:4.2" />
+          <element id="library" level="project" name="Maven: FontBox:0.1.0:dev" />
+          <element id="library" level="project" name="Maven: icepdf:core:1" />
+          <element id="library" level="project" name="Maven: je:analysis:1.4.0" />
+          <element id="library" level="project" name="Maven: json:name:1.o" />
+          <element id="library" level="project" name="Maven: net.contentobjects:jnotify:0.93" />
+          <element id="library" level="project" name="Maven: PDFBox:d:0.7.3" />
+          <element id="library" level="project" name="Maven: poi:2.5.1-final:20040804" />
+          <element id="library" level="project" name="Maven: tm:extractors:0.4" />
         </element>
       </element>
     </root>
