@@ -339,7 +339,21 @@
                     }else{
                         _li.parent("ul").find()
                     }
-                });
+                }).delegate("a[mark]","click",function(e){
+                     var userMark = $("#userMark").val();
+                     if(userMark - $(this).attr("mark")<0){
+                         $.messager.alert("您的积分不足,请提高分享率!");
+                         e.preventDefault();
+                         return false;
+                     }else{
+                         var is = confirm("下载资源'"+$(this).prev("p").html()+"'将扣除您"+$(this).attr("mark")+'分');
+                         if(!is){
+                             e.preventDefault();
+                             e.stopPropagation();
+                             return false;
+                         }
+                     }
+                        });
             }
     );
 </script>

@@ -21,7 +21,7 @@ import java.util.Map;
  */
 public interface IResourceOperationService {
 
-    public File uploadResource(MultipartFile file,String userId,StringBuilder resourceId,String... keyword) throws Exception;
+    public File uploadResource(MultipartFile file,String userId,StringBuilder resourceId,int mark) throws Exception;
     /**
      * 社区话题上传,图片
     **/

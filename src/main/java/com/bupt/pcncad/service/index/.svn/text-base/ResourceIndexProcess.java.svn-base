@@ -35,7 +35,7 @@ public class ResourceIndexProcess extends AbstractIndexProcess {
 
     @Override
     public void createIndex() throws Exception {
-        IndexWriter iw = new IndexWriter(BRWebApplicationContext.getWebRootPath() + File.separator + getPathByClass(this.getClass()), new MMAnalyzer(),true);
+        IndexWriter iw = new IndexWriter(BRWebApplicationContext.getWebRootPath() + getPathByClass(this.getClass()), new MMAnalyzer(),true);
         iw.setUseCompoundFile(false);
         List<Resource> list = resourceDao.find("from Resource r where r.deleteFlag=0");
         for (Resource resource : list) {

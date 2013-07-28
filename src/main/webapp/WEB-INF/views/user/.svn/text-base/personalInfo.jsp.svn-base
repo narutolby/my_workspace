@@ -175,10 +175,10 @@
                <div class="integral-status">
                    <img src="../../../img/icon_integral.jpg">
                    <ul>
-                       <li><i>积分余额：</i><span>2429</span></li>
-                       <li><i>当前可领取积分：</i><span>0</span></li>
-                       <li><i>已使用积分：</i><span>0</span> </li>
-                       <li><i>累计积分：</i><span>2429</span></li>
+                       <li><i>积分余额：</i><span>${mark}</span></li>
+                       <li><i>当前可领取积分：</i><span>${addMark}</span></li>
+                       <li><i>已使用积分：</i><span>${minMark}</span> </li>
+                       <li><i>累计积分：</i><span>${mark}</span></li>
                    </ul>
                    <a href="elec_resrc/upload.html" class="btn_uploadS" id="upload" style="margin: 80px 0 0 100px">上传资源</a>
                </div>

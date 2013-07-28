@@ -38,19 +38,32 @@ public class SearchController {
     @RequestMapping("/search")
     public String search(@RequestParam("q") String keyWord, ModelMap modelMap) throws Exception {
         keyWord = new String(keyWord.getBytes("ISO-8859-1"), "UTF-8");
-        Hits resourceHits = resourceIndexProcess.searchHits("fileName", keyWord);
-        Hits communityHits = communityIndexProcess.searchHits("name", keyWord);
-        Hits communityHits1 = communityIndexProcess.searchHits("creator", keyWord);
         Set<Document> resourceSet = new HashSet<Document>();
+        Hits resourceHits = null ;
+        try{
+            resourceHits = resourceIndexProcess.searchHits("fileName", keyWord);
+            for (int i = 0; i < resourceHits.length(); i++) {
+                resourceSet.add(resourceHits.doc(i));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         Set<Document> communitySet = new HashSet<Document>();
-        for (int i = 0; i < resourceHits.length(); i++) {
-            resourceSet.add(resourceHits.doc(i));
+        try{
+            Hits communityHits  = communityIndexProcess.searchHits("name", keyWord);
+            for (int i = 0; i < communityHits.length(); i++) {
+                communitySet.add(communityHits.doc(i));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
-        for (int i = 0; i < communityHits.length(); i++) {
-            communitySet.add(communityHits.doc(i));
-        }
-        for (int i = 0; i < communityHits1.length(); i++) {
-            communitySet.add(communityHits1.doc(i));
+        try{
+            Hits communityHits1 = communityIndexProcess.searchHits("creator", keyWord);
+            for (int i = 0; i < communityHits1.length(); i++) {
+                communitySet.add(communityHits1.doc(i));
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
       /*  URL url = new URL("http://211.68.68.197/opac_two/search2/searchout.jsp");
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();

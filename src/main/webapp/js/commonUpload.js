@@ -13,12 +13,12 @@
                     removeCompleted: true,
                     buttonText: '',
                     fileSizeLimit: '30MB',
-                    formData: {'Keyword': ' '},
+                    formData: {'mark': $("#mark").val()},
                     preventCaching: false,
                     onUploadSuccess: function (file, data, response) {
                         data = eval('('+data+')');
                         var keys = data.keys;
-                        var tmp = [];
+                      /*  var tmp = [];
                         tmp.push("<li><strong style='font-size:15px;color:red'>关键字:</strong></li>")
                         for(var i=0;i<keys.length;i++){
                             if(i==10){
@@ -26,7 +26,7 @@
                             }
                             tmp.push("<li><strong style='font-size:14px'>"+keys[i]+"</strong></li>");
                         }
-                        $key.html(tmp.join(""));
+                        $key.html(tmp.join(""));*/
                         options.onUploadSuccessTmp(file,data,response);
                     },
                     onUploadError: function (file, errorCode, errorMsg, errorString) {

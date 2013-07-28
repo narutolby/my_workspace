@@ -70,7 +70,29 @@ public class User implements Serializable {
     private Set<Community> communities = new HashSet<Community>();
     @Column(name="role")
     private Short role;
+    @Column(name="user_mark", columnDefinition = "int(11) default 2000")
+    private int userMark;
+    @Column(name="add_mark",columnDefinition = "int(11) default 0")
+    private int addMark;
 
+    public int getAddMark() {
+        return addMark;
+    }
+
+    public void setAddMark(int addMark) {
+        this.addMark = addMark;
+    }
+
+    public int getMinMark() {
+        return minMark;
+    }
+
+    public void setMinMark(int minMark) {
+        this.minMark = minMark;
+    }
+
+    @Column(name="min_mark",columnDefinition = "int(11) default 0")
+    private int minMark;
     public Short getRole() {
         return role;
     }
@@ -90,6 +112,14 @@ public class User implements Serializable {
 
     public Set<Course> getCourses() {
         return courses;
+    }
+
+    public int getUserMark() {
+        return userMark;
+    }
+
+    public void setUserMark(int userMark) {
+        this.userMark = userMark;
     }
 
     public void setCourses(Set<Course> courses) {

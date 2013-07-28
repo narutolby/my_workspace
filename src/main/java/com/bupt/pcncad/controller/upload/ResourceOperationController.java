@@ -42,7 +42,7 @@ public class ResourceOperationController extends BaseController<Resource> {
     private IUserService userService;
 
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
-    public void upload(@RequestParam("Filedata") MultipartFile file,ModelMap modelMap, @RequestParam(Constants.USER_INFO) String userId,@RequestParam("Keyword")String...keyword) throws Exception {
+    public void upload(@RequestParam("Filedata") MultipartFile file,ModelMap modelMap, @RequestParam(Constants.USER_INFO) String userId,@RequestParam(value="mark")int mark) throws Exception {
         try {
             if ("".equals(userId) || null == userId) {
                 modelMap.put("login",Constants.LOGIN);
@@ -56,7 +56,7 @@ public class ResourceOperationController extends BaseController<Resource> {
                 return ;
             }
             StringBuilder resourceId=new StringBuilder();
-            File uploadFile = this.resourceOperationService.uploadResource(file,userId,resourceId,keyword);
+            File uploadFile = this.resourceOperationService.uploadResource(file,userId,resourceId,mark);
             String type = file.getOriginalFilename().split("\\.")[1];
             String[] key ={};
             if(type.equalsIgnoreCase("doc") || type.equalsIgnoreCase("pdf")){

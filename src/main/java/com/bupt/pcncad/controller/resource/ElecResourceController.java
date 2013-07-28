@@ -135,7 +135,6 @@ public class ElecResourceController extends BaseController<Resource> {
     public String uploadResource(ModelMap model) throws Exception{
         User user = WebContextThreadLocal.getCurrentUser();
         int role = user.getRole();
-
         if(role == 2){
             Pager<Resource> pager = this.resourceOperationService.getRefusedResource(1);
             model.addAttribute("pager", pager);
@@ -204,6 +203,8 @@ public class ElecResourceController extends BaseController<Resource> {
         //Pager<Resource> pager=this.resourceOperationService.loadResource(pageNo,pageSize,detachedCriteria);
 
         model.addAttribute("pager", pager);
+        int currentUserMark = user.getUserMark();
+        model.addAttribute("userMark",currentUserMark);
         /*  DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Resource.class);
        / detachedCriteria.*/
         if(role == 2)

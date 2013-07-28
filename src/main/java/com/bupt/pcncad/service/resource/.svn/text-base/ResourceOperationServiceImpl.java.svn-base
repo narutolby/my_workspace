@@ -43,9 +43,10 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
     private static final int PAGE_SIZE = 13;
 
     @Override
-    public File uploadResource(MultipartFile file,String userId,StringBuilder resourceId,String...keywords) throws Exception {
+    public File uploadResource(MultipartFile file,String userId,StringBuilder resourceId,int mark) throws Exception {
         if (!file.isEmpty()) {
             Resource resource = new Resource();
+            resource.setMark(mark);
             User user = this.userDao.get(userId);
             int role = user.getRole();
 
@@ -55,9 +56,6 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
             resource.setResourceRealName(file.getOriginalFilename());
             resource.setUploadUser(user);
             resource.setUploadTime(new Date());
-            for(String keyword: keywords){
-                resource.setKeyWords(keyword);
-            }
             resource.setResourceSize(file.getSize());
             resource.setResourceType(type);
             if (role == 0)
@@ -106,6 +104,15 @@ public class ResourceOperationServiceImpl implements IResourceOperationService {
     public void downloadResource(String resourceId, HttpServletResponse response) throws Exception {
         Resource resource = this.resourceDao.get(resourceId, LockMode.UPGRADE);
         resource.setDownloadTimes(resource.getDownloadTimes() + 1);
+        int mark = resource.getMark();
+        String userId = resource.getUploadUser().getId();
+        User user = this.userDao.get(userId,LockMode.UPGRADE);
+        user.setUserMark(user.getUserMark()+mark);
+        user.setAddMark(mark);
+        User currentUser = this.userDao.get(WebContextThreadLocal.getCurrentUser().getId());
+        int currentUserMark= currentUser.getUserMark()-mark;
+        currentUser.setMinMark(mark);
+        currentUser.setUserMark(currentUserMark);
         String fileName = resource.getResourceRealName();
         String savePath = ResourceUtil.getRealSavePathByResourceId(resourceId);
         response.setContentType("application/octet-stream ");

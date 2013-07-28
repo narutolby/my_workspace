@@ -188,10 +188,14 @@ public class UserController extends BaseController<User> {
     }
     @RequestMapping(value = "/p_info")
     public String personalInfo(ModelMap modelMap){
-        String userId = WebContextThreadLocal.getCurrentUser().getUserId();
-        String email = WebContextThreadLocal.getCurrentUser().getUserEmail();
+        User user = WebContextThreadLocal.getCurrentUser();
+        String userId = user.getUserId();
+        String email = user.getUserEmail();
         modelMap.put("userId",userId);
         modelMap.put("email",email);
+        modelMap.put("mark",user.getUserMark());
+        modelMap.put("addMark",user.getAddMark());
+        modelMap.put("minMark",user.getMinMark());
         return "user/personalInfo";
 
     }

@@ -5,20 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="00de830c-8018-4a3e-9b9e-3d77ded292c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BR.iml" afterPath="$PROJECT_DIR$/BR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/br.sql" afterPath="$PROJECT_DIR$/sql/br.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813d010908013d1fdb80e00005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813d010908013d1fdf98510006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813d20dd0b013d235d713e0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813d5d91e7013d8cc0076b0005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813d5d91e7013df8e3de850008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813d5d91e7013df8e400300009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813e0129bc013e1ce47d300000.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813e0129bc013e8918ec070003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/BR/swf\ff8080813e0129bc013e891939fb0004.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/BR.war" afterPath="$PROJECT_DIR$/target/BR.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Resource.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Resource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/search/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/search/SearchController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/upload/ResourceOperationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/upload/ResourceOperationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/user/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/AbstractIndexProcess.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/AbstractIndexProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/CommunityIndexProcess.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/CommunityIndexProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/ResourceIndexProcess.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/ResourceIndexProcess.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/IResourceOperationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/IResourceOperationService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookInfoCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookInfoCrawler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookRegularUpdateTimerTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookRegularUpdateTimerTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/ResourcePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/ResourcePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/FlexPaperViewer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/FlexPaperViewer.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/allResource.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/allResource.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/allResource.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/allResource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/myResource.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/myResource.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/snippet/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/snippet/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/personalInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/personalInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/commonUpload.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/commonUpload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/tmpl/myResource.tmpl" afterPath="$PROJECT_DIR$/src/main/webapp/tmpl/myResource.tmpl" />
     </list>
     <list id="77028232-d1bc-4401-99e3-f3531c9a7e5f" name="ignore changelist" comment="ignore changelist" />
     <ignored path="BR.iws" />
@@ -63,6 +77,21 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java" line="101" class="com.bupt.pcncad.service.resource.ResourceOperationServiceImpl" package="com.bupt.pcncad.service.resource">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -120,55 +149,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PDF2JPG.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/PDF2JPG.java">
+      <file leaf-file-name="ElecResourceController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="368" column="11" selection-start="15177" selection-end="15177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="br.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/br.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceOperationServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="16" selection-start="4688" selection-end="4688" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Rate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Resource.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Resource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="16" selection-start="2676" selection-end="2676" vertical-scroll-proportion="0.82197803">
+            <state line="175" column="0" selection-start="7063" selection-end="7063" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,7 +161,7 @@
       <file leaf-file-name="ResourceOperationController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/upload/ResourceOperationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="45" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.0">
+            <state line="74" column="50" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,25 +170,70 @@
       <file leaf-file-name="IResourceOperationService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/IResourceOperationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="16" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+            <state line="29" column="16" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/Constants.java">
+      <file leaf-file-name="ResourceOperationServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+            <state line="104" column="34" selection-start="4343" selection-end="4343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElecResourceController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java">
+      <file leaf-file-name="allResource.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/allResource.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="31" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0">
+            <state line="91" column="47" selection-start="3911" selection-end="3911" vertical-scroll-proportion="0.2489796">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="603" column="0" selection-start="24248" selection-end="24248" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personalInfo.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/personalInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="20" selection-start="5777" selection-end="5777" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="197" column="47" selection-start="8879" selection-end="8879" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="31" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="electronicResourceDetail.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/electronicResourceDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="68" selection-start="2514" selection-end="2514" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
@@ -230,22 +259,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/study/TestQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/lucene/IndexProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/base.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/resrc_rec_sys.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/myResource.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/uploadResource.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/snippet/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/tmpl/myResource.tmpl" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/myResource.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookRegularUpdateTimerTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/ResourceIndexProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/CommunityIndexProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookInfoCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/dao/HibernateGenericDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/poi/org/apache/poi/hwpf/sprm/TableSprmCompressor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/poi/org/apache/poi/hwpf/AllHWPFTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/org/apache/poi/hwpf/sprm/TableSprmCompressor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/poi/hwpf/sprm/TableSprmCompressor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/ReadFileUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Resource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/AbstractIndexProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/search/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/personalInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/allResource.jsp" />
       </list>
     </option>
   </component>
@@ -274,6 +303,16 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -356,6 +395,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -428,11 +491,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,15 +513,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="pdfbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -482,132 +537,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookResource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1032,6 +961,8 @@
     </configuration>
     <configuration default="false" name="tomcat6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1941,13 +1872,13 @@
     <frame x="1365" y="-5" width="1282" height="1030" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26866883" sideWeight="0.5690608" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3635359" sideWeight="0.44134077" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26866883" sideWeight="0.63646406" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3635359" sideWeight="0.44134077" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887492" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490024" sideWeight="0.6788155" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939324" sideWeight="0.5392912" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43093923" sideWeight="0.9991883" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42983425" sideWeight="0.9991883" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819724" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44992295" sideWeight="0.33040702" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2104019" sideWeight="0.5577812" order="2" side_tool="true" content_ui="tabs" />
@@ -1955,11 +1886,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5701079" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40331492" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2849162" sideWeight="0.48142165" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6978998" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69723755" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980299" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2987013" sideWeight="0.5690608" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23782468" sideWeight="0.57016575" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39935064" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25405845" sideWeight="0.5690608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25405845" sideWeight="0.57016575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40662983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2697526" sideWeight="0.5901387" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53644645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2076,111 +2007,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/dev/jdk1.6/src.zip!/java/net/URL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/search/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="415" column="4" selection-start="16690" selection-end="16690" vertical-scroll-proportion="0.058020476" />
+        <state line="55" column="12" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1411#1421#0" expanded="true" />
+            <element signature="e#1805#1815#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/myResource.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/AbstractIndexProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="26" selection-start="6857" selection-end="6857" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/snippet/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/datatraining/DataTraining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="8" selection-start="6050" selection-end="6050" vertical-scroll-proportion="0.0">
+        <state line="45" column="0" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/PDF2JPG.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/index/CommunityIndexProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+        <state line="33" column="13" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="11" selection-start="15177" selection-end="15177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/br.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/FlexPaperViewer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.20757021">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="31" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/upload/ResourceOperationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="45" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/IResourceOperationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="16" selection-start="4688" selection-end="4688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Rate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/tmpl/resourceDetail.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/Resource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/resourceDetailTmpl.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="16" selection-start="2676" selection-end="2676" vertical-scroll-proportion="0.82197803">
+        <state line="8" column="42" selection-start="284" selection-end="284" vertical-scroll-proportion="0.30699775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/timer/BookRegularUpdateTimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="39" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1392#2267#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/resource/ElecResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="0" selection-start="7063" selection-end="7063" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/upload/ResourceOperationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="50" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/IResourceOperationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/service/resource/ResourceOperationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="34" selection-start="4343" selection-end="4343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bupt/pcncad/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="47" selection-start="8879" selection-end="8879" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/personalInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="20" selection-start="5777" selection-end="5777" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="603" column="0" selection-start="24248" selection-end="24248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/electronicResourceDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="68" selection-start="2514" selection-end="2514" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/electronicResource/allResource.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="47" selection-start="3911" selection-end="3911" vertical-scroll-proportion="0.2489796">
           <folding />
         </state>
       </provider>

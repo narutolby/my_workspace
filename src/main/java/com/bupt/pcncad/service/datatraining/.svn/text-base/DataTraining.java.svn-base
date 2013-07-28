@@ -206,15 +206,15 @@ public class DataTraining {
             stripper.setSortByPosition(sort);
             stripper.setStartPage(startPage);
             stripper.setEndPage(endPage);
-            stripper.writeText(document, output);
+          /*  stripper.writeText(document, output);*/
             return outputFile;
         } finally {
-            if (output != null) {
+           /* if (output != null) {
                 output.close();
             }
             if (document != null) {
                 document.close();
-            }
+            }*/
         }
     }
 

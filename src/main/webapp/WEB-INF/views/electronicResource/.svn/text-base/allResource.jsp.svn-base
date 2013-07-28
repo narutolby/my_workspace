@@ -108,7 +108,7 @@
                         <div>
                             <a href="elec_resrc/preview.html?resourceId=${resourceutil.resource.id}" target="_blank"><input type="button" class="btn_prev" value="&nbsp;&nbsp;预览"/></a>
                             <input type="button" class="btn_col" value="&nbsp;&nbsp;收藏"/>
-                            <input type="button" class="btn_down" value="&nbsp;&nbsp;下载"/>
+                            <a href="resourceOperation/download.html?resourceId=${resourceutil.resource.id}" ><input type="button" class="btn_down" value="&nbsp;&nbsp;下载"/>  </a>
                         </div>
                     </div>
                 </li>

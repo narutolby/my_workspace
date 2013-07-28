@@ -78,6 +78,9 @@ public class BookRegularUpdateTimerTask implements InitializingBean {
             public void run() {
                 try {
                     Resource resource = resourceDao.findEntity("from Resource r where r.haveSwf=0");
+                    if(resource==null){
+                        return;
+                    }
                     String resourceId = resource.getId();
                     String type = resource.getResourceType();
                     String sourcePath = ResourceUtil.getRealSavePathByResourceId(resourceId);

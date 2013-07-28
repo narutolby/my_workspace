@@ -35,7 +35,7 @@ public abstract class AbstractIndexProcess {
     public abstract void createIndex() throws Exception;
 
     public TermDocs searchTermDocs(String keyType, String keyWord) throws Exception {
-        IndexSearcher is = new IndexSearcher(BRWebApplicationContext.getWebRootPath()+File.separator+pathMap.get(this.getClass()));
+        IndexSearcher is = new IndexSearcher(BRWebApplicationContext.getWebRootPath()+pathMap.get(this.getClass()));
         Term term = new Term(keyType, keyWord);
         return is.getIndexReader().termDocs(term);
 
@@ -43,7 +43,7 @@ public abstract class AbstractIndexProcess {
 
 
     public Hits searchHits(String keyType, String keyWord) throws Exception {
-        IndexSearcher is = new IndexSearcher(BRWebApplicationContext.getWebRootPath()+File.separator +pathMap.get(this.getClass()));
+        IndexSearcher is = new IndexSearcher(BRWebApplicationContext.getWebRootPath()+pathMap.get(this.getClass()));
         QueryParser parser = new QueryParser(keyType, new MMAnalyzer());
         parser.setDefaultOperator(QueryParser.AND_OPERATOR);
         Query query = parser.parse(keyWord);
